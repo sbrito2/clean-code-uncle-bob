@@ -1,0 +1,17 @@
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Jakoben.ConsoleApp.exe.config
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Jakoben.ConsoleApp.exe
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Jakoben.ConsoleApp.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Jakoben.FileReader.dll
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Unity.Container.dll
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Unity.Abstractions.dll
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Jakoben.FileReader.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Unity.Container.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\bin\Debug\Unity.Abstractions.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\obj\Debug\Jakoben.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\obj\Debug\Jakoben.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\obj\Debug\Jakoben.ConsoleApp.csproj.CopyComplete
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\obj\Debug\Jakoben.ConsoleApp.exe
+C:\Users\luxfacta\Music\treinamento\Trilha13\Strategy\FileReader\Jakoben.ConsoleApp\obj\Debug\Jakoben.ConsoleApp.pdb

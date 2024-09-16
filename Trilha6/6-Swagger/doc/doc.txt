@@ -1,0 +1,10 @@
+https://swagger.io/docs/
+https://swagger.io/docs/specification/about/
+
+https://docs.microsoft.com/pt-br/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio
+
+dotnet add package Swashbuckle.AspNetCore
+dotnet add package Swashbuckle.AspNetCore.Swagger --version 5.4.1
+
+
+TESTE: https://www.it-swarm.dev/pt/c%23/addtransient-addscoped-e-addsingleton-services-differences/825864696/

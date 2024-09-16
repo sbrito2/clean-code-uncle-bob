@@ -1,0 +1,13 @@
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\bin\Debug\netcoreapp3.1\demo.exe
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\bin\Debug\netcoreapp3.1\demo.deps.json
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\bin\Debug\netcoreapp3.1\demo.runtimeconfig.json
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\bin\Debug\netcoreapp3.1\demo.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\bin\Debug\netcoreapp3.1\demo.dll
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\bin\Debug\netcoreapp3.1\demo.pdb
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\obj\Debug\netcoreapp3.1\demo.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\obj\Debug\netcoreapp3.1\demo.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\obj\Debug\netcoreapp3.1\demo.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\obj\Debug\netcoreapp3.1\demo.AssemblyInfo.cs
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\obj\Debug\netcoreapp3.1\demo.dll
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\obj\Debug\netcoreapp3.1\demo.pdb
+C:\Users\luxfacta\Music\demos\DependencyInversion\demo\obj\Debug\netcoreapp3.1\demo.genruntimeconfig.cache

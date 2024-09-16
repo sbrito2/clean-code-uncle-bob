@@ -1,0 +1,58 @@
+https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/startup?view=aspnetcore-3.1
+
+https://docs.microsoft.com/pt-br/dotnet/api/system.configuration.configurationmanager.appsettings?view=dotnet-plat-ext-3.1
+
+https://www.it-swarm.dev/pt/c%23/addtransient-addscoped-e-addsingleton-services-differences/825864696/
+
+https://www.wellingtonjhn.com/posts/configurando-suas-aplica%C3%A7%C3%B5es-.net-core/
+
+
+*Startup.cs
+
+    -ConfigureServices:  É chamado antes do configuration para para configurar os serviços do 
+    aplicativo. Portanto é o responsável por adicionar serviços adicionais na aplicação. Para
+    recursos que exigem uma configuração mais significativa, o mesmo tb oferece metodos de extensao que facilitam a configuração, 
+    através do Add{Service} na IServiceCollection. Ex: AddDbContext, AddEntityFrameworkStore, AddRazorPage etc
+
+    -Configuration: O método Configure é usado para especificar como o aplicativo responde às solicitações HTTP.
+    Ex: app.UseRouting(), app.UseHttpsRedirection(),  app.UseEndpoints(endpoints =>{endpoints.MapRazorPages();}); etc 
+    O pipeline de solicitação é configurado adicionando componentes de middleware a uma instância de IApplicationBuilder.
+    Serviços adicionais, como IWebHostEnvironment, ILoggerFactory ou qualquer coisa definida em ConfigureServices, 
+    podem ser especificados na assinatura do método Configure. Esses serviços serão injetados se estiverem disponíveis.
+
+*appsettings.json
+Antigamente tínhamos os arquivos Web.Config e App.Config em nossas aplicações .Net 
+Framework que na verdade eram arquivos XML onde podíamos colocar as configurações de 
+nossas aplicações, e em conjunto à eles usávamos a classe ConfigurationManager para acessá-los.
+ Muitas vezes esses arquivos se tornavam verdadeiros monstros e sua manutenção traumatizante para
+muitos desenvolvedores.Com o lançamento do .Net Core e ASP.Net Core há alguns anos, ganhamos um novo mecanismo de configuração ainda mais poderoso, flexível e simples.
+Basta adicionar um arquivo appsettings.json no projeto, referenciar uma instância de 
+IConfiguration através de Injeção de Dependência no Startup.cs e acessar o dado desta forma, 
+por exemplo: Configuration.GetSection(“AppConfiguration”)[“UserName”]
+
+
+
+
+
+
+
+
+
+
+https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1
+http://www.macoratti.net/19/04/aspcore_contconf1.htm
+
+
+    
+    rtsp é o live555
+    http quem manda é o ws em node
+
+
+
+
+ -  appsettings.json
+ -  add.ServiceConfiguration
+ -  API OptionsBuilder
+ -  Log
+ -  Roteamento
+ -  Tratar Erros

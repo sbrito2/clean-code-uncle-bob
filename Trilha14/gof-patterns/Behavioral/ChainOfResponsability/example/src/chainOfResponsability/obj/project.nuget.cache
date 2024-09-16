@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5/ix/Ozv8LknjgRoaTvTdNussmknVPdxC+DmMsWkw/Lww9IvtCbNbcGGU/2P2yHyYkx8qj21d5GBLMsaeRBBng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luxfacta\\Music\\treinamento\\Trilha14\\simple-examples-all-patterns\\ChainOfResponsability\\example\\src\\chainOfResponsability\\chainOfResponsability.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.9\\microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}

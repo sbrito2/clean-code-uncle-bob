@@ -1,0 +1,13 @@
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\bin\Debug\netcoreapp3.1\facade.exe
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\bin\Debug\netcoreapp3.1\facade.deps.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\bin\Debug\netcoreapp3.1\facade.runtimeconfig.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\bin\Debug\netcoreapp3.1\facade.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\bin\Debug\netcoreapp3.1\facade.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\bin\Debug\netcoreapp3.1\facade.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\obj\Debug\netcoreapp3.1\facade.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\obj\Debug\netcoreapp3.1\facade.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\obj\Debug\netcoreapp3.1\facade.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\obj\Debug\netcoreapp3.1\facade.AssemblyInfo.cs
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\obj\Debug\netcoreapp3.1\facade.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\obj\Debug\netcoreapp3.1\facade.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Facade\example\src\FacadePattern\obj\Debug\netcoreapp3.1\facade.genruntimeconfig.cache

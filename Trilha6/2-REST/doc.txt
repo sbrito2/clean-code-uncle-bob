@@ -1,0 +1,25 @@
+https://www.restapitutorial.com/httpstatuscodes.html
+https://sensedia.com/api/design-de-api-rest/
+https://dev.to/khaosdoctor/the-complete-guide-to-status-codes-for-meaningful-rest-apis-1-5c5
+
+
+Rest, que é a abreviatura de Representational State Transfer, é um conjunto de restrições 
+utilizadas para que as requisições HTTP atendam as diretrizes definidas na arquitetura.
+ Basicamente, as restrições determinadas pela arquitetura Rest são:
+
+cliente-servidor: as aplicações existentes no servidor e no cliente devem ser separadas;
+sem estado: as requisições são feitas de forma independente, ou seja, cada uma executa apenas uma determinada ação;
+cache: a API deve utilizar o cache para evitar chamadas recorrentes ao servidor;
+interface uniforme: agrupa outros quatro conceitos em que determina que os recursos devem ser 
+identificados, a manipulação dos recursos deve ser por meio de representação, com mensagens 
+autodescritivas e utilizar links para navegar pelo aplicativo.
+    -Respostas: Use corretamente os métodos HTTP: pegue a code certo para a API
+    -Rotas: Utilize nomes no plural
+    -Hierarquia: Utilize sub-recursos para os relacionamentos (ex: Pessoas/2/Carros/1)
+    -Obedeça a forma tradicional de cada HTTP verb:
+        -Não altere estados com o método GET
+        -Nao envie body no GET ou no DELETE
+        -Para o GET use apenas parametros
+        -Para o Post e Put, use o body para a informação que deseja alterar e os parametros para auxiliar identificar quem 
+        -Put para alterar uma entidade inteira e PATCH para alterar apenas campos específicos
+    -Utilize criptografia 

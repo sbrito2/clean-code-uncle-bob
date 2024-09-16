@@ -1,0 +1,198 @@
+2020-07-02 23:09:23.008 -03:00 [INF] Starting web host
+2020-07-02 23:09:27.890 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-02 23:09:30.309 -03:00 [INF] Now listening on: http://localhost:5000
+2020-07-02 23:09:30.391 -03:00 [INF] Now listening on: https://localhost:5001
+2020-07-02 23:09:30.511 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-02 23:09:30.513 -03:00 [INF] Hosting environment: Production
+2020-07-02 23:09:30.515 -03:00 [INF] Content root path: C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API
+2020-07-02 23:09:30.675 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2020-07-02 23:09:30.697 -03:00 [INF] No cached response available for this request.
+2020-07-02 23:09:30.768 -03:00 [INF] The response could not be cached for this request.
+2020-07-02 23:09:30.788 -03:00 [INF] Request finished in 115.3173ms 301 
+2020-07-02 23:09:30.793 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-07-02 23:09:30.831 -03:00 [INF] No cached response available for this request.
+2020-07-02 23:09:30.975 -03:00 [INF] The response could not be cached for this request.
+2020-07-02 23:09:31.074 -03:00 [INF] Request finished in 281.1207ms 200 text/html;charset=utf-8
+2020-07-02 23:09:31.607 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-07-02 23:09:31.610 -03:00 [INF] No cached response available for this request.
+2020-07-02 23:09:31.886 -03:00 [INF] The response could not be cached for this request.
+2020-07-02 23:09:31.889 -03:00 [INF] Request finished in 282.0527ms 200 application/json;charset=utf-8
+2020-07-02 23:09:44.086 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/cities/combo  
+2020-07-02 23:09:44.110 -03:00 [INF] No cached response available for this request.
+2020-07-02 23:09:46.446 -03:00 [INF] The response could not be cached for this request.
+2020-07-02 23:09:46.479 -03:00 [INF] Request finished in 2392.9829ms 500 application/json
+2020-07-02 23:12:03.155 -03:00 [INF] Application is shutting down...
+2020-07-02 23:12:12.648 -03:00 [INF] Starting web host
+2020-07-02 23:12:12.997 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-02 23:12:13.296 -03:00 [INF] Now listening on: http://localhost:5000
+2020-07-02 23:12:13.298 -03:00 [INF] Now listening on: https://localhost:5001
+2020-07-02 23:12:13.329 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-02 23:12:13.331 -03:00 [INF] Hosting environment: Production
+2020-07-02 23:12:13.333 -03:00 [INF] Content root path: C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API
+2020-07-02 23:12:16.916 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/cities/combo  
+2020-07-02 23:12:16.939 -03:00 [INF] No cached response available for this request.
+2020-07-02 23:12:17.509 -03:00 [ERR] Unexpected error: System.InvalidOperationException: Unable to resolve service for type 'API.Domain.Notification.NotificationContext' while attempting to activate 'PDG.Presentation.API.Filters.NotificationFilter'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.MvcAttributeRouteHandler.<>c__DisplayClass10_0.<RouteAsync>b__0(HttpContext c)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at API.Presentation.API.Middlewares.GlobalMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\GlobalMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at API.Presentation.API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\ExceptionMiddleware.cs:line 28
+System.InvalidOperationException: Unable to resolve service for type 'API.Domain.Notification.NotificationContext' while attempting to activate 'PDG.Presentation.API.Filters.NotificationFilter'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.MvcAttributeRouteHandler.<>c__DisplayClass10_0.<RouteAsync>b__0(HttpContext c)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at API.Presentation.API.Middlewares.GlobalMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\GlobalMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at API.Presentation.API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\ExceptionMiddleware.cs:line 28
+2020-07-02 23:12:18.351 -03:00 [INF] The response could not be cached for this request.
+2020-07-02 23:12:18.362 -03:00 [INF] Request finished in 1449.3988ms 500 application/json
+2020-07-02 23:12:58.646 -03:00 [INF] Application is shutting down...
+2020-07-02 23:14:42.516 -03:00 [INF] Starting web host
+2020-07-02 23:14:42.951 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-02 23:14:43.516 -03:00 [INF] Now listening on: http://localhost:5000
+2020-07-02 23:14:43.634 -03:00 [INF] Now listening on: https://localhost:5001
+2020-07-02 23:14:43.639 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-02 23:14:43.733 -03:00 [INF] Hosting environment: Production
+2020-07-02 23:14:43.735 -03:00 [INF] Content root path: C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API
+2020-07-02 23:15:06.438 -03:00 [INF] Application is shutting down...
+2020-07-02 23:16:24.510 -03:00 [INF] Starting web host
+2020-07-02 23:16:27.257 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-02 23:16:28.485 -03:00 [INF] Now listening on: http://localhost:5000
+2020-07-02 23:16:28.485 -03:00 [INF] Now listening on: https://localhost:5001
+2020-07-02 23:16:28.487 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-02 23:16:28.487 -03:00 [INF] Hosting environment: Development
+2020-07-02 23:16:28.488 -03:00 [INF] Content root path: C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API
+2020-07-02 23:16:53.297 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/cities/combo  
+2020-07-02 23:16:53.333 -03:00 [INF] No cached response available for this request.
+2020-07-02 23:16:54.379 -03:00 [ERR] Unexpected error: System.InvalidOperationException: Unable to resolve service for type 'API.Domain.Notification.NotificationContext' while attempting to activate 'PDG.Presentation.API.Filters.NotificationFilter'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.MvcAttributeRouteHandler.<>c__DisplayClass10_0.<RouteAsync>b__0(HttpContext c)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at API.Presentation.API.Middlewares.GlobalMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\GlobalMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at API.Presentation.API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\ExceptionMiddleware.cs:line 28
+System.InvalidOperationException: Unable to resolve service for type 'API.Domain.Notification.NotificationContext' while attempting to activate 'PDG.Presentation.API.Filters.NotificationFilter'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.MvcAttributeRouteHandler.<>c__DisplayClass10_0.<RouteAsync>b__0(HttpContext c)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at API.Presentation.API.Middlewares.GlobalMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\GlobalMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at API.Presentation.API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\ExceptionMiddleware.cs:line 28
+2020-07-02 23:16:54.592 -03:00 [INF] The response could not be cached for this request.
+2020-07-02 23:16:54.601 -03:00 [INF] Request finished in 1312.2097ms 500 application/json
+2020-07-02 23:17:01.468 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/cities/combo  
+2020-07-02 23:17:01.469 -03:00 [INF] No cached response available for this request.
+2020-07-02 23:17:01.559 -03:00 [ERR] Unexpected error: System.InvalidOperationException: Unable to resolve service for type 'API.Domain.Notification.NotificationContext' while attempting to activate 'PDG.Presentation.API.Filters.NotificationFilter'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.MvcAttributeRouteHandler.<>c__DisplayClass10_0.<RouteAsync>b__0(HttpContext c)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at API.Presentation.API.Middlewares.GlobalMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\GlobalMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at API.Presentation.API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\ExceptionMiddleware.cs:line 28
+System.InvalidOperationException: Unable to resolve service for type 'API.Domain.Notification.NotificationContext' while attempting to activate 'PDG.Presentation.API.Filters.NotificationFilter'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.MvcAttributeRouteHandler.<>c__DisplayClass10_0.<RouteAsync>b__0(HttpContext c)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at API.Presentation.API.Middlewares.GlobalMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\GlobalMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at API.Presentation.API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API\Middlewares\ExceptionMiddleware.cs:line 28
+2020-07-02 23:17:01.563 -03:00 [INF] The response could not be cached for this request.
+2020-07-02 23:17:01.563 -03:00 [INF] Request finished in 95.6984ms 500 application/json
+2020-07-02 23:32:55.684 -03:00 [INF] Starting web host
+2020-07-02 23:32:56.429 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-02 23:32:56.947 -03:00 [INF] Now listening on: http://localhost:5000
+2020-07-02 23:32:56.950 -03:00 [INF] Now listening on: https://localhost:5001
+2020-07-02 23:32:56.971 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-02 23:32:56.973 -03:00 [INF] Hosting environment: Production
+2020-07-02 23:32:56.975 -03:00 [INF] Content root path: C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\api\API.Presentation.API
+2020-07-02 23:33:04.600 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/cities/combo  
+2020-07-02 23:33:04.643 -03:00 [INF] No cached response available for this request.
+2020-07-02 23:33:05.055 -03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String) on controller API.Presentation.API.Controllers.CityController (API.Presentation.API).
+2020-07-02 23:33:08.977 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-07-02 23:33:09.077 -03:00 [INF] Executed action API.Presentation.API.Controllers.CityController.GetAll (API.Presentation.API) in 3976.8923ms
+2020-07-02 23:33:09.112 -03:00 [INF] The response could not be cached for this request.
+2020-07-02 23:33:09.162 -03:00 [INF] Request finished in 4564.4895ms 200 application/json; charset=utf-8
+2020-07-02 23:33:17.177 -03:00 [INF] Application is shutting down...
+2020-07-02 23:55:04.342 -03:00 [INF] Starting web host
+2020-07-02 23:55:05.112 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-02 23:55:05.714 -03:00 [INF] Now listening on: http://localhost:5000
+2020-07-02 23:55:05.717 -03:00 [INF] Now listening on: https://localhost:5001
+2020-07-02 23:55:05.739 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-02 23:55:05.787 -03:00 [INF] Hosting environment: Production
+2020-07-02 23:55:05.791 -03:00 [INF] Content root path: C:\Users\luxfacta\Music\treinamento\Trilha9\0-ConstructorInjection\api\API.Presentation.API
+2020-07-02 23:55:12.348 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/cities/combo  
+2020-07-02 23:55:12.403 -03:00 [INF] No cached response available for this request.
+2020-07-02 23:55:12.742 -03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String) on controller API.Presentation.API.Controllers.CityController (API.Presentation.API).
+2020-07-02 23:55:14.494 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-07-02 23:55:14.575 -03:00 [INF] Executed action API.Presentation.API.Controllers.CityController.GetAll (API.Presentation.API) in 1767.2339ms
+2020-07-02 23:55:14.601 -03:00 [INF] The response could not be cached for this request.
+2020-07-02 23:55:14.658 -03:00 [INF] Request finished in 2313.4391ms 200 application/json; charset=utf-8
+2020-07-02 23:55:18.544 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/cities/combo  
+2020-07-02 23:55:18.552 -03:00 [INF] No cached response available for this request.
+2020-07-02 23:55:18.636 -03:00 [INF] Route matched with {action = "GetAll", controller = "City"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String) on controller API.Presentation.API.Controllers.CityController (API.Presentation.API).
+2020-07-02 23:55:18.870 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-07-02 23:55:18.926 -03:00 [INF] Executed action API.Presentation.API.Controllers.CityController.GetAll (API.Presentation.API) in 98.4148ms
+2020-07-02 23:55:18.958 -03:00 [INF] The response could not be cached for this request.
+2020-07-02 23:55:18.961 -03:00 [INF] Request finished in 417.6778ms 200 application/json; charset=utf-8
+2020-07-02 23:55:22.477 -03:00 [INF] Application is shutting down...

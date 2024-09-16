@@ -1,0 +1,8 @@
+Ementa:
+
+GIT: branch, revert, merge, tags, stash
+
+Chapter 4: Comments - Clean Code
+
+Chapter 5: Formatting - Clean Code
+

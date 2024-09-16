@@ -1,0 +1,33 @@
+@model List<CoffeViewModel>;
+
+@{
+    ViewData["Title"]  = "Gerenciador de Cafés";
+}
+
+<div class="panel panel-default tarefa-panel">
+    <div class="panel-heading">@ViewData["Title"]</div>
+
+    <table class="table table-houver">
+        <thead>
+            <td>Id</td>
+            <td>País</td>
+        </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CofId</td>
+            <td>@item.CofCountry</td>
+            <td>@item.CofDescription</td> 
+            <td>
+                <a asp-action="Update" asp-route-id="@item.CofId">Editar</a>
+                <a asp-action="Delete" asp-route-id="@item.CofId">Deletar</a>
+            </td>
+        </tr>
+    }
+    </table>
+    <div class="panel-footer add-item-form">
+        <form asp-controller="Coffe" asp-action="Create" method="GET"> 
+            <button type="sumit" class="btn btn-success" >Adicionar novo</button>
+        </form>
+    </div>
+</div>

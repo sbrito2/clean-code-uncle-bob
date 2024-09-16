@@ -1,0 +1,13 @@
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\bin\Debug\netcoreapp3.1\wheather-Observer.exe
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\bin\Debug\netcoreapp3.1\wheather-Observer.deps.json
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\bin\Debug\netcoreapp3.1\wheather-Observer.runtimeconfig.json
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\bin\Debug\netcoreapp3.1\wheather-Observer.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\bin\Debug\netcoreapp3.1\wheather-Observer.dll
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\bin\Debug\netcoreapp3.1\wheather-Observer.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\obj\Debug\netcoreapp3.1\wheather-Observer.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\obj\Debug\netcoreapp3.1\wheather-Observer.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\obj\Debug\netcoreapp3.1\wheather-Observer.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\obj\Debug\netcoreapp3.1\wheather-Observer.AssemblyInfo.cs
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\obj\Debug\netcoreapp3.1\wheather-Observer.dll
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\obj\Debug\netcoreapp3.1\wheather-Observer.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha13\Observer\wheather-Observer\obj\Debug\netcoreapp3.1\wheather-Observer.genruntimeconfig.cache

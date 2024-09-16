@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.0</TargetFramework>
+        <IsPackable>false</IsPackable>
+        <AssemblyName>Mapster.Tests</AssemblyName>
+        <AssemblyOriginatorKeyFile>Mapster.Tests.snk</AssemblyOriginatorKeyFile>
+        <SignAssembly>true</SignAssembly>
+        <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="ExpressionDebugger" Version="2.0.0" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+        <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+        <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+        <PackageReference Include="Shouldly" Version="3.0.2" />
+        <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Mapster\Mapster.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="packages.config" />
+      <None Remove="mock.keys" />
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Include="mock.keys" />
+    </ItemGroup>
+    <ItemGroup>
+      <Compile Remove="Diagnostics\DebugInfoInjectorEx.cs" />
+      <Compile Remove="Diagnostics\GlobalReference.cs" />
+      <Compile Remove="Diagnostics\TypeAdapterConfigExtensions.cs" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\enes.akinci\source\repos\ServiceLocator.IMPL\ServiceLocator.IMPL\bin\Debug\netcoreapp2.2\ServiceLocator.IMPL.deps.json
+C:\Users\enes.akinci\source\repos\ServiceLocator.IMPL\ServiceLocator.IMPL\bin\Debug\netcoreapp2.2\ServiceLocator.IMPL.runtimeconfig.json
+C:\Users\enes.akinci\source\repos\ServiceLocator.IMPL\ServiceLocator.IMPL\bin\Debug\netcoreapp2.2\ServiceLocator.IMPL.runtimeconfig.dev.json
+C:\Users\enes.akinci\source\repos\ServiceLocator.IMPL\ServiceLocator.IMPL\bin\Debug\netcoreapp2.2\ServiceLocator.IMPL.dll
+C:\Users\enes.akinci\source\repos\ServiceLocator.IMPL\ServiceLocator.IMPL\bin\Debug\netcoreapp2.2\ServiceLocator.IMPL.pdb
+C:\Users\enes.akinci\source\repos\ServiceLocator.IMPL\ServiceLocator.IMPL\obj\Debug\netcoreapp2.2\ServiceLocator.IMPL.csproj.CoreCompileInputs.cache
+C:\Users\enes.akinci\source\repos\ServiceLocator.IMPL\ServiceLocator.IMPL\obj\Debug\netcoreapp2.2\ServiceLocator.IMPL.AssemblyInfoInputs.cache
+C:\Users\enes.akinci\source\repos\ServiceLocator.IMPL\ServiceLocator.IMPL\obj\Debug\netcoreapp2.2\ServiceLocator.IMPL.AssemblyInfo.cs
+C:\Users\enes.akinci\source\repos\ServiceLocator.IMPL\ServiceLocator.IMPL\obj\Debug\netcoreapp2.2\ServiceLocator.IMPL.dll
+C:\Users\enes.akinci\source\repos\ServiceLocator.IMPL\ServiceLocator.IMPL\obj\Debug\netcoreapp2.2\ServiceLocator.IMPL.pdb

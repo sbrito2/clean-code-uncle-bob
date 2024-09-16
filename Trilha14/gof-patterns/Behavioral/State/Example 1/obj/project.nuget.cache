@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hkEM6GcSFNvPBwJzQ0K5dGlH2cqfPMcs0Y2hUVHY/vzFYaEOtqRpCDv6RZMKrQ7DFfR58NAJDreap20x5T13Sg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luxfacta\\Music\\treinamento\\Trilha14\\simple-examples-all-patterns\\State\\Example 1\\Example 1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luxfacta\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

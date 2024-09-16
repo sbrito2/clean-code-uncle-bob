@@ -1,0 +1,13 @@
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\bin\Debug\netcoreapp3.1\MementoPattern.exe
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\bin\Debug\netcoreapp3.1\MementoPattern.deps.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\bin\Debug\netcoreapp3.1\MementoPattern.runtimeconfig.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\bin\Debug\netcoreapp3.1\MementoPattern.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\bin\Debug\netcoreapp3.1\MementoPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\bin\Debug\netcoreapp3.1\MementoPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\obj\Debug\netcoreapp3.1\MementoPattern.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\obj\Debug\netcoreapp3.1\MementoPattern.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\obj\Debug\netcoreapp3.1\MementoPattern.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\obj\Debug\netcoreapp3.1\MementoPattern.AssemblyInfo.cs
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\obj\Debug\netcoreapp3.1\MementoPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\obj\Debug\netcoreapp3.1\MementoPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Memento\example\src\MementoPattern\obj\Debug\netcoreapp3.1\MementoPattern.genruntimeconfig.cache

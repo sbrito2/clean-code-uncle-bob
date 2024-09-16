@@ -1,0 +1,10 @@
+C:\Users\luxfacta\Music\treinamento\Trilha13\Decorator\CoffeeShop-Decorator\CoffeeShop\bin\Debug\CoffeeShop.exe.config
+C:\Users\luxfacta\Music\treinamento\Trilha13\Decorator\CoffeeShop-Decorator\CoffeeShop\bin\Debug\CoffeeShop.exe
+C:\Users\luxfacta\Music\treinamento\Trilha13\Decorator\CoffeeShop-Decorator\CoffeeShop\bin\Debug\CoffeeShop.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha13\Decorator\CoffeeShop-Decorator\CoffeeShop\obj\Debug\CoffeeShop.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha13\Decorator\CoffeeShop-Decorator\CoffeeShop\obj\Debug\CoffeeShop.MainForm.resources
+C:\Users\luxfacta\Music\treinamento\Trilha13\Decorator\CoffeeShop-Decorator\CoffeeShop\obj\Debug\CoffeeShop.Properties.Resources.resources
+C:\Users\luxfacta\Music\treinamento\Trilha13\Decorator\CoffeeShop-Decorator\CoffeeShop\obj\Debug\CoffeeShop.csproj.GenerateResource.cache
+C:\Users\luxfacta\Music\treinamento\Trilha13\Decorator\CoffeeShop-Decorator\CoffeeShop\obj\Debug\CoffeeShop.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha13\Decorator\CoffeeShop-Decorator\CoffeeShop\obj\Debug\CoffeeShop.exe
+C:\Users\luxfacta\Music\treinamento\Trilha13\Decorator\CoffeeShop-Decorator\CoffeeShop\obj\Debug\CoffeeShop.pdb

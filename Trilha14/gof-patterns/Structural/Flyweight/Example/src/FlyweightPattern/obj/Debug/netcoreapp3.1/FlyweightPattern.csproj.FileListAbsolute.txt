@@ -1,0 +1,15 @@
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\bin\Debug\netcoreapp3.1\FlyweightPattern.exe
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\bin\Debug\netcoreapp3.1\FlyweightPattern.deps.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\bin\Debug\netcoreapp3.1\FlyweightPattern.runtimeconfig.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\bin\Debug\netcoreapp3.1\FlyweightPattern.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\bin\Debug\netcoreapp3.1\FlyweightPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\bin\Debug\netcoreapp3.1\FlyweightPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\obj\Debug\netcoreapp3.1\FlyweightPattern.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\obj\Debug\netcoreapp3.1\FlyweightPattern.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\obj\Debug\netcoreapp3.1\FlyweightPattern.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\obj\Debug\netcoreapp3.1\FlyweightPattern.AssemblyInfo.cs
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\obj\Debug\netcoreapp3.1\FlyweightPattern.csproj.CopyComplete
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\obj\Debug\netcoreapp3.1\FlyweightPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\obj\Debug\netcoreapp3.1\FlyweightPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Structural\Flyweight\Example\src\FlyweightPattern\obj\Debug\netcoreapp3.1\FlyweightPattern.genruntimeconfig.cache

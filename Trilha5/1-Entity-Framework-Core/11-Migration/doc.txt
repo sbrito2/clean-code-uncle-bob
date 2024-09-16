@@ -1,0 +1,16 @@
+https://www.entityframeworktutorial.net/efcore/entity-framework-core-migration.aspx
+https://www.entityframeworktutorial.net/efcore/pmc-commands-for-ef-core-migration.aspx
+
+https://www.learnentityframeworkcore.com/migrations
+
+
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+dotnet ef migrations remove
+
+dotnet ef database update MyFirstMigration
+dotnet ef migrations script
+
+*Automated Migration
+
+*Code-base Migration

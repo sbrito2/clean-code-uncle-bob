@@ -1,0 +1,153 @@
+2020-07-08 10:28:12.607 -03:00 [INF] Starting web host
+2020-07-08 10:28:14.547 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-08 10:28:15.397 -03:00 [INF] Now listening on: http://localhost:5000
+2020-07-08 10:28:15.400 -03:00 [INF] Now listening on: https://localhost:5001
+2020-07-08 10:28:15.433 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-08 10:28:15.435 -03:00 [INF] Hosting environment: Production
+2020-07-08 10:28:15.437 -03:00 [INF] Content root path: C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Presentation.API
+2020-07-08 10:33:28.220 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html  
+2020-07-08 10:33:28.252 -03:00 [INF] No cached response available for this request.
+2020-07-08 10:33:29.945 -03:00 [INF] HTTP GET /index.html responded 404 in 0.6421 ms
+2020-07-08 10:33:30.880 -03:00 [INF] The response could not be cached for this request.
+2020-07-08 10:33:30.996 -03:00 [INF] Request finished in 2782.0179ms 404 
+2020-07-08 10:33:48.104 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2020-07-08 10:33:48.112 -03:00 [INF] No cached response available for this request.
+2020-07-08 10:33:48.143 -03:00 [INF] The response could not be cached for this request.
+2020-07-08 10:33:48.146 -03:00 [INF] Request finished in 42.5586ms 301 
+2020-07-08 10:33:48.202 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-07-08 10:33:48.205 -03:00 [INF] No cached response available for this request.
+2020-07-08 10:33:48.269 -03:00 [INF] The response could not be cached for this request.
+2020-07-08 10:33:48.273 -03:00 [INF] Request finished in 71.531ms 200 text/html;charset=utf-8
+2020-07-08 10:33:48.353 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2020-07-08 10:33:48.354 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2020-07-08 10:33:48.355 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2020-07-08 10:33:48.371 -03:00 [INF] No cached response available for this request.
+2020-07-08 10:33:48.372 -03:00 [INF] No cached response available for this request.
+2020-07-08 10:33:48.373 -03:00 [INF] No cached response available for this request.
+2020-07-08 10:33:48.467 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-07-08 10:33:48.467 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-07-08 10:33:48.472 -03:00 [INF] The response could not be cached for this request.
+2020-07-08 10:33:48.490 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-07-08 10:33:48.495 -03:00 [INF] The response could not be cached for this request.
+2020-07-08 10:33:48.499 -03:00 [INF] Request finished in 143.7436ms 200 application/javascript
+2020-07-08 10:33:48.523 -03:00 [INF] The response could not be cached for this request.
+2020-07-08 10:33:48.525 -03:00 [INF] Request finished in 171.3104ms 200 text/css
+2020-07-08 10:33:48.528 -03:00 [INF] Request finished in 174.0368ms 200 application/javascript
+2020-07-08 10:33:51.654 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-07-08 10:33:51.657 -03:00 [INF] No cached response available for this request.
+2020-07-08 10:33:51.779 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2020-07-08 10:33:51.799 -03:00 [INF] No cached response available for this request.
+2020-07-08 10:33:51.802 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-07-08 10:33:51.808 -03:00 [INF] The response could not be cached for this request.
+2020-07-08 10:33:51.852 -03:00 [INF] Request finished in 73.8586ms 200 image/png
+2020-07-08 10:33:52.005 -03:00 [INF] The response could not be cached for this request.
+2020-07-08 10:33:52.007 -03:00 [INF] Request finished in 354.2146ms 200 application/json;charset=utf-8
+2020-07-08 10:34:25.007 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/properties/300000  
+2020-07-08 10:34:25.037 -03:00 [INF] No cached response available for this request.
+2020-07-08 10:34:25.152 -03:00 [INF] Route matched with {action = "GetById", controller = "Property"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-07-08 10:34:28.523 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.GetById (API.Presentation.API) in 3331.5486ms
+2020-07-08 10:34:28.840 -03:00 [ERR] Unexpected error: MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'p.PRO_INITIAL_BID' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at MySql.Data.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.Find(Object[] keyValues)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Find(Object[] keyValues)
+   at API.Infraestructure.Data.Repositories.Base.Repository`1.Find(Object[] keys) in C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Infraestructure.Data\Repositories\Base\Repository.cs:line 29
+   at API.Application.Services.Service`1.Find(Int32 id) in C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Application\Services\Base\Service.cs:line 37
+   at API.Presentation.API.Controllers.PropertyController.GetById(Int32 id) in C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Presentation.API\Controllers\PropertyController.cs:line 71
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at API.Presentation.API.Middlewares.GlobalMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Presentation.API\Middlewares\GlobalMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at API.Presentation.API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Presentation.API\Middlewares\ExceptionMiddleware.cs:line 28
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'p.PRO_INITIAL_BID' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at MySql.Data.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.Find(Object[] keyValues)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Find(Object[] keyValues)
+   at API.Infraestructure.Data.Repositories.Base.Repository`1.Find(Object[] keys) in C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Infraestructure.Data\Repositories\Base\Repository.cs:line 29
+   at API.Application.Services.Service`1.Find(Int32 id) in C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Application\Services\Base\Service.cs:line 37
+   at API.Presentation.API.Controllers.PropertyController.GetById(Int32 id) in C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Presentation.API\Controllers\PropertyController.cs:line 71
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at API.Presentation.API.Middlewares.GlobalMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Presentation.API\Middlewares\GlobalMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at API.Presentation.API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Presentation.API\Middlewares\ExceptionMiddleware.cs:line 28
+2020-07-08 10:34:29.462 -03:00 [INF] The response could not be cached for this request.
+2020-07-08 10:34:29.492 -03:00 [INF] Request finished in 4485.7689ms 500 application/json
+2020-07-08 10:34:55.195 -03:00 [INF] Application is shutting down...
+2020-07-08 10:39:28.082 -03:00 [INF] Starting web host
+2020-07-08 10:39:29.991 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-08 10:39:30.533 -03:00 [INF] Now listening on: http://localhost:5000
+2020-07-08 10:39:30.533 -03:00 [INF] Now listening on: https://localhost:5001
+2020-07-08 10:39:30.534 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-08 10:39:30.534 -03:00 [INF] Hosting environment: Development
+2020-07-08 10:39:30.534 -03:00 [INF] Content root path: C:\Users\luxfacta\Music\treinamento\Trilha8\api-v2\api\API.Presentation.API
+2020-07-08 10:39:39.706 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Polls/100000  
+2020-07-08 10:39:40.006 -03:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: sfhksdflskjf
+2020-07-08 10:39:40.339 -03:00 [INF] HTTP GET /api/Polls/100000 responded 404 in 4.1822 ms
+2020-07-08 10:39:41.358 -03:00 [INF] Request finished in 1660.1216ms 404 
+2020-07-08 10:40:10.257 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/properties/300000  
+2020-07-08 10:40:10.272 -03:00 [INF] No cached response available for this request.
+2020-07-08 10:40:10.337 -03:00 [INF] Route matched with {action = "GetById", controller = "Property"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).

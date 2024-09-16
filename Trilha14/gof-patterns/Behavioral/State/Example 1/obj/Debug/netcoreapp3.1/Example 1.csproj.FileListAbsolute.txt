@@ -1,0 +1,15 @@
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\bin\Debug\netcoreapp3.1\Example 1.exe
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\bin\Debug\netcoreapp3.1\Example 1.deps.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\bin\Debug\netcoreapp3.1\Example 1.runtimeconfig.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\bin\Debug\netcoreapp3.1\Example 1.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\bin\Debug\netcoreapp3.1\Example 1.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\bin\Debug\netcoreapp3.1\Example 1.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\obj\Debug\netcoreapp3.1\Example 1.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\obj\Debug\netcoreapp3.1\Example 1.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\obj\Debug\netcoreapp3.1\Example 1.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\obj\Debug\netcoreapp3.1\Example 1.AssemblyInfo.cs
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\obj\Debug\netcoreapp3.1\Example 1.csproj.CopyComplete
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\obj\Debug\netcoreapp3.1\Example 1.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\obj\Debug\netcoreapp3.1\Example 1.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\State\Example 1\obj\Debug\netcoreapp3.1\Example 1.genruntimeconfig.cache

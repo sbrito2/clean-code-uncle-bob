@@ -1,0 +1,181 @@
+2020-07-07 09:07:30.112 -03:00 [INF] Starting web host
+2020-07-07 09:07:33.749 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-07 09:07:34.811 -03:00 [FTL] Application startup exception
+System.InvalidOperationException: To be able to use the Lifestyle.Scoped property, please ensure that the container is configured with a default scoped lifestyle by setting the Container.Options.DefaultScopedLifestyle property with the required scoped lifestyle for your type of application. For more information, see https://simpleinjector.org/scoped.
+   at SimpleInjector.Lifestyles.ScopedProxyLifestyle.ThrowDefaultScopeLifestyleIsNotSet()
+   at SimpleInjector.Lifestyles.ScopedProxyLifestyle.CreateRegistrationCore(Type concreteType, Container container)
+   at SimpleInjector.Lifestyle.CreateRegistrationFromCache(Type concreteType, Container container)
+   at SimpleInjector.Lifestyle.CreateRegistrationInternal(Type concreteType, Container container, Boolean preventTornLifestyles)
+   at SimpleInjector.Lifestyle.CreateRegistration[TConcrete](Container container)
+   at SimpleInjector.Container.Register[TService,TImplementation](Lifestyle lifestyle, String serviceTypeParamName, String implementationTypeParamName)
+   at SimpleInjector.Container.Register[TConcrete](Lifestyle lifestyle)
+   at PDG.CrossCutting.NativeDotNetInjector.AddContextAdministrators(Container container) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.CrossCutting.IoC\NativeDotNetInjector.cs:line 55
+   at PDG.CrossCutting.NativeDotNetInjector.RegisterServices(Container container) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.CrossCutting.IoC\NativeDotNetInjector.cs:line 19
+   at API.Presentation.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.Presentation.API\Startup.cs:line 56
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2020-07-07 09:07:36.099 -03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: To be able to use the Lifestyle.Scoped property, please ensure that the container is configured with a default scoped lifestyle by setting the Container.Options.DefaultScopedLifestyle property with the required scoped lifestyle for your type of application. For more information, see https://simpleinjector.org/scoped.
+   at SimpleInjector.Lifestyles.ScopedProxyLifestyle.ThrowDefaultScopeLifestyleIsNotSet()
+   at SimpleInjector.Lifestyles.ScopedProxyLifestyle.CreateRegistrationCore(Type concreteType, Container container)
+   at SimpleInjector.Lifestyle.CreateRegistrationFromCache(Type concreteType, Container container)
+   at SimpleInjector.Lifestyle.CreateRegistrationInternal(Type concreteType, Container container, Boolean preventTornLifestyles)
+   at SimpleInjector.Lifestyle.CreateRegistration[TConcrete](Container container)
+   at SimpleInjector.Container.Register[TService,TImplementation](Lifestyle lifestyle, String serviceTypeParamName, String implementationTypeParamName)
+   at SimpleInjector.Container.Register[TConcrete](Lifestyle lifestyle)
+   at PDG.CrossCutting.NativeDotNetInjector.AddContextAdministrators(Container container) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.CrossCutting.IoC\NativeDotNetInjector.cs:line 55
+   at PDG.CrossCutting.NativeDotNetInjector.RegisterServices(Container container) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.CrossCutting.IoC\NativeDotNetInjector.cs:line 19
+   at API.Presentation.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.Presentation.API\Startup.cs:line 56
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at API.Presentation.API.Program.Main(String[] args) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.Presentation.API\Program.cs:line 33
+2020-07-07 09:09:50.143 -03:00 [INF] Starting web host
+2020-07-07 09:09:50.688 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-07 09:09:51.154 -03:00 [FTL] Application startup exception
+System.InvalidOperationException: The configuration is invalid. Creating the instance for type IUserRepository failed. The constructor of type UserRepository contains the parameter with name 'context' and type DomainContext, but DomainContext is not registered. For DomainContext to be resolved, it must be registered in the container. An implicit registration could not be made because Container.Options.ResolveUnregisteredConcreteTypes is set to 'false', which is now the default setting in v5. This disallows the container to construct this unregistered concrete type. For more information on why resolving unregistered concrete types is now disallowed by default, and what possible fixes you can apply, see https://simpleinjector.org/ructd.
+ ---> SimpleInjector.ActivationException: The constructor of type UserRepository contains the parameter with name 'context' and type DomainContext, but DomainContext is not registered. For DomainContext to be resolved, it must be registered in the container. An implicit registration could not be made because Container.Options.ResolveUnregisteredConcreteTypes is set to 'false', which is now the default setting in v5. This disallows the container to construct this unregistered concrete type. For more information on why resolving unregistered concrete types is now disallowed by default, and what possible fixes you can apply, see https://simpleinjector.org/ructd.
+   at SimpleInjector.Container.ThrowParameterTypeMustBeRegistered(InjectionTargetInfo target)
+   at SimpleInjector.Advanced.DefaultDependencyInjectionBehavior.GetInstanceProducer(InjectionConsumerInfo dependency, Boolean throwOnFailure)
+   at SimpleInjector.ContainerOptions.GetInstanceProducerFor(InjectionConsumerInfo consumer)
+   at SimpleInjector.Registration.BuildConstructorParameters(ConstructorInfo constructor)
+   at SimpleInjector.Registration.BuildNewExpression()
+   at SimpleInjector.Registration.BuildTransientExpression()
+   at SimpleInjector.Lifestyles.TransientLifestyle.TransientRegistration.BuildExpression()
+   at SimpleInjector.InstanceProducer.BuildExpressionInternal()
+   at SimpleInjector.Internals.LazyEx`1.InitializeAndReturn()
+   at SimpleInjector.InstanceProducer.BuildExpression()
+   at SimpleInjector.InstanceProducer.VerifyExpressionBuilding()
+   --- End of inner exception stack trace ---
+   at SimpleInjector.InstanceProducer.VerifyExpressionBuilding()
+   at SimpleInjector.Container.VerifyThatAllExpressionsCanBeBuilt(InstanceProducer[] producersToVerify)
+   at SimpleInjector.Container.VerifyThatAllExpressionsCanBeBuilt()
+   at SimpleInjector.Container.VerifyInternal(Boolean suppressLifestyleMismatchVerification)
+   at SimpleInjector.Container.Verify(VerificationOption option)
+   at SimpleInjector.Container.Verify()
+   at API.Presentation.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.Presentation.API\Startup.cs:line 59
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2020-07-07 09:09:51.569 -03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: The configuration is invalid. Creating the instance for type IUserRepository failed. The constructor of type UserRepository contains the parameter with name 'context' and type DomainContext, but DomainContext is not registered. For DomainContext to be resolved, it must be registered in the container. An implicit registration could not be made because Container.Options.ResolveUnregisteredConcreteTypes is set to 'false', which is now the default setting in v5. This disallows the container to construct this unregistered concrete type. For more information on why resolving unregistered concrete types is now disallowed by default, and what possible fixes you can apply, see https://simpleinjector.org/ructd.
+ ---> SimpleInjector.ActivationException: The constructor of type UserRepository contains the parameter with name 'context' and type DomainContext, but DomainContext is not registered. For DomainContext to be resolved, it must be registered in the container. An implicit registration could not be made because Container.Options.ResolveUnregisteredConcreteTypes is set to 'false', which is now the default setting in v5. This disallows the container to construct this unregistered concrete type. For more information on why resolving unregistered concrete types is now disallowed by default, and what possible fixes you can apply, see https://simpleinjector.org/ructd.
+   at SimpleInjector.Container.ThrowParameterTypeMustBeRegistered(InjectionTargetInfo target)
+   at SimpleInjector.Advanced.DefaultDependencyInjectionBehavior.GetInstanceProducer(InjectionConsumerInfo dependency, Boolean throwOnFailure)
+   at SimpleInjector.ContainerOptions.GetInstanceProducerFor(InjectionConsumerInfo consumer)
+   at SimpleInjector.Registration.BuildConstructorParameters(ConstructorInfo constructor)
+   at SimpleInjector.Registration.BuildNewExpression()
+   at SimpleInjector.Registration.BuildTransientExpression()
+   at SimpleInjector.Lifestyles.TransientLifestyle.TransientRegistration.BuildExpression()
+   at SimpleInjector.InstanceProducer.BuildExpressionInternal()
+   at SimpleInjector.Internals.LazyEx`1.InitializeAndReturn()
+   at SimpleInjector.InstanceProducer.BuildExpression()
+   at SimpleInjector.InstanceProducer.VerifyExpressionBuilding()
+   --- End of inner exception stack trace ---
+   at SimpleInjector.InstanceProducer.VerifyExpressionBuilding()
+   at SimpleInjector.Container.VerifyThatAllExpressionsCanBeBuilt(InstanceProducer[] producersToVerify)
+   at SimpleInjector.Container.VerifyThatAllExpressionsCanBeBuilt()
+   at SimpleInjector.Container.VerifyInternal(Boolean suppressLifestyleMismatchVerification)
+   at SimpleInjector.Container.Verify(VerificationOption option)
+   at SimpleInjector.Container.Verify()
+   at API.Presentation.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.Presentation.API\Startup.cs:line 59
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at API.Presentation.API.Program.Main(String[] args) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.Presentation.API\Program.cs:line 33
+2020-07-07 09:11:54.833 -03:00 [INF] Starting web host
+2020-07-07 09:11:55.272 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-07 09:11:55.618 -03:00 [FTL] Application startup exception
+System.InvalidOperationException: The configuration is invalid. Creating the instance for type IUserRepository failed. The constructor of type UserRepository contains the parameter with name 'context' and type DomainContext, but DomainContext is not registered. For DomainContext to be resolved, it must be registered in the container. An implicit registration could not be made because Container.Options.ResolveUnregisteredConcreteTypes is set to 'false', which is now the default setting in v5. This disallows the container to construct this unregistered concrete type. For more information on why resolving unregistered concrete types is now disallowed by default, and what possible fixes you can apply, see https://simpleinjector.org/ructd.
+ ---> SimpleInjector.ActivationException: The constructor of type UserRepository contains the parameter with name 'context' and type DomainContext, but DomainContext is not registered. For DomainContext to be resolved, it must be registered in the container. An implicit registration could not be made because Container.Options.ResolveUnregisteredConcreteTypes is set to 'false', which is now the default setting in v5. This disallows the container to construct this unregistered concrete type. For more information on why resolving unregistered concrete types is now disallowed by default, and what possible fixes you can apply, see https://simpleinjector.org/ructd.
+   at SimpleInjector.Container.ThrowParameterTypeMustBeRegistered(InjectionTargetInfo target)
+   at SimpleInjector.Advanced.DefaultDependencyInjectionBehavior.GetInstanceProducer(InjectionConsumerInfo dependency, Boolean throwOnFailure)
+   at SimpleInjector.ContainerOptions.GetInstanceProducerFor(InjectionConsumerInfo consumer)
+   at SimpleInjector.Registration.BuildConstructorParameters(ConstructorInfo constructor)
+   at SimpleInjector.Registration.BuildNewExpression()
+   at SimpleInjector.Registration.BuildTransientExpression()
+   at SimpleInjector.Lifestyles.TransientLifestyle.TransientRegistration.BuildExpression()
+   at SimpleInjector.InstanceProducer.BuildExpressionInternal()
+   at SimpleInjector.Internals.LazyEx`1.InitializeAndReturn()
+   at SimpleInjector.InstanceProducer.BuildExpression()
+   at SimpleInjector.InstanceProducer.VerifyExpressionBuilding()
+   --- End of inner exception stack trace ---
+   at SimpleInjector.InstanceProducer.VerifyExpressionBuilding()
+   at SimpleInjector.Container.VerifyThatAllExpressionsCanBeBuilt(InstanceProducer[] producersToVerify)
+   at SimpleInjector.Container.VerifyThatAllExpressionsCanBeBuilt()
+   at SimpleInjector.Container.VerifyInternal(Boolean suppressLifestyleMismatchVerification)
+   at SimpleInjector.Container.Verify(VerificationOption option)
+   at SimpleInjector.Container.Verify()
+   at API.Presentation.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.Presentation.API\Startup.cs:line 60
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2020-07-07 09:11:55.749 -03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: The configuration is invalid. Creating the instance for type IUserRepository failed. The constructor of type UserRepository contains the parameter with name 'context' and type DomainContext, but DomainContext is not registered. For DomainContext to be resolved, it must be registered in the container. An implicit registration could not be made because Container.Options.ResolveUnregisteredConcreteTypes is set to 'false', which is now the default setting in v5. This disallows the container to construct this unregistered concrete type. For more information on why resolving unregistered concrete types is now disallowed by default, and what possible fixes you can apply, see https://simpleinjector.org/ructd.
+ ---> SimpleInjector.ActivationException: The constructor of type UserRepository contains the parameter with name 'context' and type DomainContext, but DomainContext is not registered. For DomainContext to be resolved, it must be registered in the container. An implicit registration could not be made because Container.Options.ResolveUnregisteredConcreteTypes is set to 'false', which is now the default setting in v5. This disallows the container to construct this unregistered concrete type. For more information on why resolving unregistered concrete types is now disallowed by default, and what possible fixes you can apply, see https://simpleinjector.org/ructd.
+   at SimpleInjector.Container.ThrowParameterTypeMustBeRegistered(InjectionTargetInfo target)
+   at SimpleInjector.Advanced.DefaultDependencyInjectionBehavior.GetInstanceProducer(InjectionConsumerInfo dependency, Boolean throwOnFailure)
+   at SimpleInjector.ContainerOptions.GetInstanceProducerFor(InjectionConsumerInfo consumer)
+   at SimpleInjector.Registration.BuildConstructorParameters(ConstructorInfo constructor)
+   at SimpleInjector.Registration.BuildNewExpression()
+   at SimpleInjector.Registration.BuildTransientExpression()
+   at SimpleInjector.Lifestyles.TransientLifestyle.TransientRegistration.BuildExpression()
+   at SimpleInjector.InstanceProducer.BuildExpressionInternal()
+   at SimpleInjector.Internals.LazyEx`1.InitializeAndReturn()
+   at SimpleInjector.InstanceProducer.BuildExpression()
+   at SimpleInjector.InstanceProducer.VerifyExpressionBuilding()
+   --- End of inner exception stack trace ---
+   at SimpleInjector.InstanceProducer.VerifyExpressionBuilding()
+   at SimpleInjector.Container.VerifyThatAllExpressionsCanBeBuilt(InstanceProducer[] producersToVerify)
+   at SimpleInjector.Container.VerifyThatAllExpressionsCanBeBuilt()
+   at SimpleInjector.Container.VerifyInternal(Boolean suppressLifestyleMismatchVerification)
+   at SimpleInjector.Container.Verify(VerificationOption option)
+   at SimpleInjector.Container.Verify()
+   at API.Presentation.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.Presentation.API\Startup.cs:line 60
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at API.Presentation.API.Program.Main(String[] args) in C:\Users\luxfacta\Music\treinamento\Trilha9\4-DI\4-containers\4 - SimpleInjector\api\API.Presentation.API\Program.cs:line 33

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.4" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.20" />
+    <PackageReference Include="Ninject" Version="3.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Domain\API.Domain.csproj" />
+    <ProjectReference Include="..\API.Infraestructure.Data\API.Infraestructure.Data.csproj" />
+    <ProjectReference Include="..\API.Application\API.Application.csproj" />
+    <ProjectReference Include="..\API.Infraestructure.Data\API.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

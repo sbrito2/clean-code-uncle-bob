@@ -1,0 +1,16 @@
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\obj\Debug\netcoreapp3.1\chainOfResponsability.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\obj\Debug\netcoreapp3.1\chainOfResponsability.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\obj\Debug\netcoreapp3.1\chainOfResponsability.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\obj\Debug\netcoreapp3.1\chainOfResponsability.AssemblyInfo.cs
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\bin\Debug\netcoreapp3.1\chainOfResponsability.exe
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\bin\Debug\netcoreapp3.1\chainOfResponsability.deps.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\bin\Debug\netcoreapp3.1\chainOfResponsability.runtimeconfig.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\bin\Debug\netcoreapp3.1\chainOfResponsability.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\bin\Debug\netcoreapp3.1\chainOfResponsability.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\bin\Debug\netcoreapp3.1\chainOfResponsability.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\obj\Debug\netcoreapp3.1\chainOfResponsability.csproj.CopyComplete
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\obj\Debug\netcoreapp3.1\chainOfResponsability.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\obj\Debug\netcoreapp3.1\chainOfResponsability.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\ChainOfResponsability\example\src\chainOfResponsability\obj\Debug\netcoreapp3.1\chainOfResponsability.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\bin\Debug\netcoreapp3.1\ProtectionProxyPattern.exe
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\bin\Debug\netcoreapp3.1\ProtectionProxyPattern.deps.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\bin\Debug\netcoreapp3.1\ProtectionProxyPattern.runtimeconfig.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\bin\Debug\netcoreapp3.1\ProtectionProxyPattern.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\bin\Debug\netcoreapp3.1\ProtectionProxyPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\bin\Debug\netcoreapp3.1\ProtectionProxyPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\obj\Debug\netcoreapp3.1\ProtectionProxyPattern.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\obj\Debug\netcoreapp3.1\ProtectionProxyPattern.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\obj\Debug\netcoreapp3.1\ProtectionProxyPattern.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\obj\Debug\netcoreapp3.1\ProtectionProxyPattern.AssemblyInfo.cs
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\obj\Debug\netcoreapp3.1\ProtectionProxyPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\obj\Debug\netcoreapp3.1\ProtectionProxyPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Proxy\ProtectionProxy\Example\src\ProtectionProxyPattern\obj\Debug\netcoreapp3.1\ProtectionProxyPattern.genruntimeconfig.cache

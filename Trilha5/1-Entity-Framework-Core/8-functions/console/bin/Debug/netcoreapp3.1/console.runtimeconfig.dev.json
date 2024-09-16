@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\luxfacta\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\luxfacta\\.nuget\\packages"
+    ]
+  }
+}

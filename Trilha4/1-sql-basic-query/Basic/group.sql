@@ -1,0 +1,10 @@
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+ORDER BY column_name(s);
+
+SELECT PRE_TOTAL_RESPONDIDA
+FROM PRESENÇA
+--WHERE PRE_TOTAL_RESPONDIDA < 5
+GROUP BY PRE_TOTAL_RESPONDIDA

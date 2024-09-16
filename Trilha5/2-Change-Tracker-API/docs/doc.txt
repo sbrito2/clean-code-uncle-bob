@@ -1,0 +1,18 @@
+AUTOMATIC CHANGE TRACKING
+
+-Entity framwork is able to track the changes made to entities, so
+the correct updates are made on the database when the SaveChanges
+method of context is called.
+
+-The Change Tracking tracks changes while adding new records
+to the entity collections, modifying or removing existing entities.
+
+-Every entity must have EntityKey (primary key) property in order to
+be tracked by the context. Entity framework will not add any entity in the conceptual
+model which does not have an EntityKey property
+
+-DbChangeTracker class gives you all the information about entities being
+tracked by context.
+
+
+referencias: https://docs.microsoft.com/pt-br/ef/core/querying/tracking

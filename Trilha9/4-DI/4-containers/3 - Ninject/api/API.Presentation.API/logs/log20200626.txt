@@ -1,0 +1,454 @@
+2020-06-26 00:00:06.142 -03:00 [INF] Starting web host
+2020-06-26 00:00:06.460 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 00:00:06.802 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 00:00:06.804 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 00:00:06.827 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 00:00:06.830 -03:00 [INF] Hosting environment: Production
+2020-06-26 00:00:06.842 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 00:02:34.825 -03:00 [INF] Application is shutting down...
+2020-06-26 00:02:50.131 -03:00 [INF] Starting web host
+2020-06-26 00:02:50.671 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 00:02:50.979 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 00:02:50.982 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 00:02:50.992 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 00:02:51.002 -03:00 [INF] Hosting environment: Production
+2020-06-26 00:02:51.005 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 00:05:37.397 -03:00 [INF] Application is shutting down...
+2020-06-26 00:41:53.187 -03:00 [INF] Starting web host
+2020-06-26 00:41:54.696 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 00:41:56.193 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 00:41:56.198 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 00:41:56.202 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 00:41:56.205 -03:00 [INF] Hosting environment: Production
+2020-06-26 00:41:56.223 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 00:42:22.384 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-06-26 00:42:22.478 -03:00 [INF] No cached response available for this request.
+2020-06-26 00:42:22.806 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 00:42:22.925 -03:00 [INF] Request finished in 559.6616ms 200 text/html;charset=utf-8
+2020-06-26 00:42:29.920 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customers/relatorio.csv  
+2020-06-26 00:42:29.924 -03:00 [INF] No cached response available for this request.
+2020-06-26 00:42:30.472 -03:00 [INF] Authorization failed.
+2020-06-26 00:42:30.482 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-06-26 00:42:30.819 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 00:42:30.829 -03:00 [INF] Request finished in 909.1968ms 401 
+2020-06-26 00:48:48.662 -03:00 [INF] Application is shutting down...
+2020-06-26 00:49:55.384 -03:00 [INF] Starting web host
+2020-06-26 00:49:55.703 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 00:49:56.070 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 00:49:56.096 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 00:49:56.114 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 00:49:56.128 -03:00 [INF] Hosting environment: Production
+2020-06-26 00:49:56.131 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 00:50:03.010 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customers/relatorio.csv  
+2020-06-26 00:50:03.048 -03:00 [INF] No cached response available for this request.
+2020-06-26 00:50:03.401 -03:00 [INF] Authorization failed.
+2020-06-26 00:50:03.417 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-06-26 00:50:03.444 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 00:50:03.456 -03:00 [INF] Request finished in 448.2741ms 401 
+2020-06-26 00:50:09.755 -03:00 [INF] Application is shutting down...
+2020-06-26 00:51:35.234 -03:00 [INF] Starting web host
+2020-06-26 00:51:35.592 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 00:51:36.364 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 00:51:36.374 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 00:51:36.378 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 00:51:36.381 -03:00 [INF] Hosting environment: Production
+2020-06-26 00:51:36.396 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 00:51:36.676 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-06-26 00:51:36.703 -03:00 [INF] No cached response available for this request.
+2020-06-26 00:51:36.800 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 00:51:36.819 -03:00 [INF] Request finished in 146.4871ms 200 text/html;charset=utf-8
+2020-06-26 00:51:38.351 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-06-26 00:51:38.376 -03:00 [INF] No cached response available for this request.
+2020-06-26 00:51:39.068 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 00:51:39.071 -03:00 [INF] Request finished in 720.9082ms 200 application/json;charset=utf-8
+2020-06-26 00:51:51.638 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customers/relatorio  
+2020-06-26 00:51:51.660 -03:00 [INF] No cached response available for this request.
+2020-06-26 00:51:51.779 -03:00 [INF] Authorization failed.
+2020-06-26 00:51:51.790 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-06-26 00:51:51.794 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 00:51:51.797 -03:00 [INF] Request finished in 161.5347ms 401 
+2020-06-26 00:51:58.218 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-06-26 00:51:58.221 -03:00 [INF] No cached response available for this request.
+2020-06-26 00:51:58.231 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 00:51:58.237 -03:00 [INF] Request finished in 18.8232ms 200 text/html;charset=utf-8
+2020-06-26 00:51:58.725 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-06-26 00:51:58.753 -03:00 [INF] No cached response available for this request.
+2020-06-26 00:51:58.847 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 00:51:58.866 -03:00 [INF] Request finished in 141.4298ms 200 application/json;charset=utf-8
+2020-06-26 01:02:54.555 -03:00 [INF] Application is shutting down...
+2020-06-26 01:03:20.929 -03:00 [INF] Starting web host
+2020-06-26 01:03:21.319 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 01:03:21.840 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 01:03:21.891 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 01:03:21.924 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 01:03:21.928 -03:00 [INF] Hosting environment: Production
+2020-06-26 01:03:21.954 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 01:03:31.415 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-06-26 01:03:31.434 -03:00 [INF] No cached response available for this request.
+2020-06-26 01:03:31.544 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 01:03:31.555 -03:00 [INF] Request finished in 143.369ms 200 text/html;charset=utf-8
+2020-06-26 01:03:32.258 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-06-26 01:03:32.295 -03:00 [INF] No cached response available for this request.
+2020-06-26 01:03:32.531 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 01:03:32.534 -03:00 [INF] Request finished in 276.3247ms 200 application/json;charset=utf-8
+2020-06-26 01:03:38.337 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customers/relatorio.csv  
+2020-06-26 01:03:38.342 -03:00 [INF] No cached response available for this request.
+2020-06-26 01:03:38.601 -03:00 [INF] Authorization failed.
+2020-06-26 01:03:38.612 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-06-26 01:03:38.630 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 01:03:38.659 -03:00 [INF] Request finished in 322.4453ms 401 
+2020-06-26 01:08:43.590 -03:00 [INF] Application is shutting down...
+2020-06-26 01:09:27.464 -03:00 [INF] Starting web host
+2020-06-26 01:09:28.057 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 01:09:28.505 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 01:09:28.520 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 01:09:28.525 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 01:09:28.526 -03:00 [INF] Hosting environment: Production
+2020-06-26 01:09:28.528 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 01:21:49.547 -03:00 [INF] Application is shutting down...
+2020-06-26 01:22:29.114 -03:00 [INF] Starting web host
+2020-06-26 01:22:29.444 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 01:22:29.794 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 01:22:29.798 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 01:22:29.800 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 01:22:29.828 -03:00 [INF] Hosting environment: Production
+2020-06-26 01:22:29.832 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 01:22:42.101 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customers/relatorio.csv  
+2020-06-26 01:22:42.185 -03:00 [INF] No cached response available for this request.
+2020-06-26 01:22:42.732 -03:00 [INF] Authorization failed.
+2020-06-26 01:22:42.773 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-06-26 01:22:42.783 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 01:22:42.853 -03:00 [INF] Request finished in 771.4277ms 401 
+2020-06-26 01:22:56.358 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/properties/relatorio.csv  
+2020-06-26 01:22:56.398 -03:00 [INF] No cached response available for this request.
+2020-06-26 01:22:56.570 -03:00 [INF] Route matched with {action = "GetAllCsv", controller = "Property"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCsv() on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-26 01:23:02.163 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Presentation.API.ViewModels.Property.PropertyResponseViewModel, API.Presentation.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-06-26 01:23:02.250 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.GetAllCsv (API.Presentation.API) in 5649.9097ms
+2020-06-26 01:23:02.261 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 01:23:02.285 -03:00 [INF] Request finished in 5926.769ms 200 text/csv
+2020-06-26 01:23:23.808 -03:00 [INF] Application is shutting down...
+2020-06-26 01:23:37.198 -03:00 [INF] Starting web host
+2020-06-26 01:23:37.485 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 01:23:37.894 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 01:23:37.899 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 01:23:37.902 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 01:23:37.904 -03:00 [INF] Hosting environment: Production
+2020-06-26 01:23:37.908 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 01:23:45.889 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customers/relatorio.csv  
+2020-06-26 01:23:45.928 -03:00 [INF] No cached response available for this request.
+2020-06-26 01:23:46.163 -03:00 [INF] Authorization failed.
+2020-06-26 01:23:46.176 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-06-26 01:23:46.208 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 01:23:46.237 -03:00 [INF] Request finished in 352.5663ms 401 
+2020-06-26 01:23:55.188 -03:00 [INF] Application is shutting down...
+2020-06-26 01:24:10.874 -03:00 [INF] Starting web host
+2020-06-26 01:24:11.140 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 01:24:11.558 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 01:24:11.589 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 01:24:11.592 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 01:24:11.595 -03:00 [INF] Hosting environment: Production
+2020-06-26 01:24:11.599 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 01:24:14.613 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customers/relatorio.csv  
+2020-06-26 01:24:14.638 -03:00 [INF] No cached response available for this request.
+2020-06-26 01:24:14.789 -03:00 [INF] Authorization failed.
+2020-06-26 01:24:14.798 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-06-26 01:24:14.826 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 01:24:14.853 -03:00 [INF] Request finished in 242.1711ms 401 
+2020-06-26 01:24:20.972 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/properties/relatorio.csv  
+2020-06-26 01:24:20.975 -03:00 [INF] No cached response available for this request.
+2020-06-26 01:24:21.080 -03:00 [INF] Route matched with {action = "GetAllCsv", controller = "Property"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCsv() on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-26 01:24:22.798 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Presentation.API.ViewModels.Property.PropertyResponseViewModel, API.Presentation.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-06-26 01:24:22.832 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.GetAllCsv (API.Presentation.API) in 1734.7937ms
+2020-06-26 01:24:22.841 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 01:24:22.853 -03:00 [INF] Request finished in 1881.3544ms 200 text/csv
+2020-06-26 01:24:29.574 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customers/relatorio.csv  
+2020-06-26 01:24:29.596 -03:00 [INF] No cached response available for this request.
+2020-06-26 01:24:29.607 -03:00 [INF] Authorization failed.
+2020-06-26 01:24:29.677 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-06-26 01:24:29.698 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 01:24:29.958 -03:00 [INF] Request finished in 384.2388ms 401 
+2020-06-26 01:25:39.312 -03:00 [INF] Application is shutting down...
+2020-06-26 01:35:29.236 -03:00 [INF] Starting web host
+2020-06-26 01:35:29.592 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 01:35:29.859 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 01:35:29.862 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 01:35:29.877 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 01:35:29.879 -03:00 [INF] Hosting environment: Production
+2020-06-26 01:35:29.883 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 01:37:29.783 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/properties  
+2020-06-26 01:37:29.804 -03:00 [INF] No cached response available for this request.
+2020-06-26 01:37:29.975 -03:00 [INF] Route matched with {action = "GetAll", controller = "Property"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-26 01:37:31.628 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 01:37:31.769 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.GetAll (API.Presentation.API) in 1752.5324ms
+2020-06-26 01:37:31.792 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 01:37:31.820 -03:00 [INF] Request finished in 2039.1482ms 200 application/json; charset=utf-8
+2020-06-26 01:37:38.705 -03:00 [INF] Application is shutting down...
+2020-06-26 01:52:53.509 -03:00 [INF] Starting web host
+2020-06-26 01:52:54.271 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 01:52:54.561 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 01:52:54.573 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 01:52:54.578 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 01:52:54.589 -03:00 [INF] Hosting environment: Production
+2020-06-26 01:52:54.592 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 01:54:01.746 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users/login application/json 45
+2020-06-26 01:54:01.794 -03:00 [INF] CORS policy execution successful.
+2020-06-26 01:54:01.963 -03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(API.Presentation.API.ViewModels.Login.LoginViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 01:54:05.408 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 01:54:05.579 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.Login (API.Presentation.API) in 3582.5553ms
+2020-06-26 01:54:05.606 -03:00 [INF] Request finished in 3862.6284ms 200 application/json; charset=utf-8
+2020-06-26 01:56:14.533 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 129
+2020-06-26 01:56:14.557 -03:00 [INF] CORS policy execution successful.
+2020-06-26 01:56:14.836 -03:00 [INF] Successfully validated the token.
+2020-06-26 01:56:14.919 -03:00 [INF] Authorization failed.
+2020-06-26 01:56:14.958 -03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2020-06-26 01:56:14.980 -03:00 [INF] Request finished in 446.3762ms 403 
+2020-06-26 01:56:27.371 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 129
+2020-06-26 01:56:27.376 -03:00 [INF] CORS policy execution successful.
+2020-06-26 01:56:27.391 -03:00 [INF] Successfully validated the token.
+2020-06-26 01:56:27.408 -03:00 [INF] Authorization failed.
+2020-06-26 01:56:27.412 -03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2020-06-26 01:56:27.425 -03:00 [INF] Request finished in 53.3921ms 403 
+2020-06-26 01:58:11.850 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/users  
+2020-06-26 01:58:11.875 -03:00 [INF] Successfully validated the token.
+2020-06-26 01:58:11.909 -03:00 [INF] Authorization was successful.
+2020-06-26 01:58:11.933 -03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 01:58:11.950 -03:00 [INF] Authorization was successful.
+2020-06-26 01:58:12.273 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 01:58:12.302 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.GetAll (API.Presentation.API) in 353.2185ms
+2020-06-26 01:58:12.333 -03:00 [INF] Request finished in 483.2918ms 200 application/json; charset=utf-8
+2020-06-26 01:58:37.234 -03:00 [INF] Application is shutting down...
+2020-06-26 01:58:48.847 -03:00 [INF] Starting web host
+2020-06-26 01:58:49.390 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 01:58:49.768 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 01:58:49.770 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 01:58:49.789 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 01:58:49.791 -03:00 [INF] Hosting environment: Production
+2020-06-26 01:58:49.793 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 01:59:02.327 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/users  
+2020-06-26 01:59:02.610 -03:00 [INF] Successfully validated the token.
+2020-06-26 01:59:02.621 -03:00 [INF] Authorization was successful.
+2020-06-26 01:59:02.686 -03:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 01:59:02.695 -03:00 [INF] Authorization was successful.
+2020-06-26 01:59:04.331 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 01:59:04.379 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.GetAll (API.Presentation.API) in 1681.0387ms
+2020-06-26 01:59:04.399 -03:00 [INF] Request finished in 2077.5081ms 200 application/json; charset=utf-8
+2020-06-26 01:59:07.959 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 129
+2020-06-26 01:59:07.963 -03:00 [INF] CORS policy execution successful.
+2020-06-26 01:59:07.989 -03:00 [INF] Successfully validated the token.
+2020-06-26 01:59:07.993 -03:00 [INF] Authorization was successful.
+2020-06-26 01:59:08.018 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 01:59:08.062 -03:00 [INF] Authorization was successful.
+2020-06-26 01:59:09.300 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 01:59:09.322 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 1261.386ms
+2020-06-26 01:59:09.338 -03:00 [INF] Request finished in 1379.1094ms 201 application/json; charset=utf-8
+2020-06-26 01:59:39.183 -03:00 [INF] Application is shutting down...
+2020-06-26 05:50:16.856 -03:00 [INF] Starting web host
+2020-06-26 05:50:17.511 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 05:50:18.112 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 05:50:18.113 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 05:50:18.126 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 05:50:18.128 -03:00 [INF] Hosting environment: Production
+2020-06-26 05:50:18.143 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 05:50:57.958 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-06-26 05:50:58.027 -03:00 [INF] No cached response available for this request.
+2020-06-26 05:50:58.273 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 05:50:58.374 -03:00 [INF] Request finished in 418.4603ms 200 text/html;charset=utf-8
+2020-06-26 05:50:59.061 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-06-26 05:50:59.064 -03:00 [INF] No cached response available for this request.
+2020-06-26 05:50:59.643 -03:00 [INF] The response could not be cached for this request.
+2020-06-26 05:50:59.666 -03:00 [INF] Request finished in 605.451ms 200 application/json;charset=utf-8
+2020-06-26 05:52:02.401 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users/login application/json 45
+2020-06-26 05:52:02.433 -03:00 [INF] CORS policy execution successful.
+2020-06-26 05:52:02.883 -03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(API.Presentation.API.ViewModels.Login.LoginViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 05:52:06.771 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 05:52:06.882 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.Login (API.Presentation.API) in 3972.3986ms
+2020-06-26 05:52:06.908 -03:00 [INF] Request finished in 4507.3547ms 200 application/json; charset=utf-8
+2020-06-26 05:52:55.856 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 127
+2020-06-26 05:52:55.872 -03:00 [INF] CORS policy execution successful.
+2020-06-26 05:52:56.054 -03:00 [INF] Successfully validated the token.
+2020-06-26 05:52:56.088 -03:00 [INF] Authorization was successful.
+2020-06-26 05:52:56.154 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 05:52:56.243 -03:00 [INF] Authorization was successful.
+2020-06-26 05:52:57.010 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 05:52:57.028 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 786.3128ms
+2020-06-26 05:52:57.044 -03:00 [INF] Request finished in 1188.9205ms 201 application/json; charset=utf-8
+2020-06-26 05:55:42.443 -03:00 [INF] Application is shutting down...
+2020-06-26 05:56:21.576 -03:00 [INF] Starting web host
+2020-06-26 05:56:23.617 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 05:56:24.555 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 05:56:24.555 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 05:56:24.555 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 05:56:24.555 -03:00 [INF] Hosting environment: Development
+2020-06-26 05:56:24.555 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 05:57:09.120 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 129
+2020-06-26 05:57:09.233 -03:00 [INF] CORS policy execution successful.
+2020-06-26 05:57:09.917 -03:00 [INF] Successfully validated the token.
+2020-06-26 05:57:09.926 -03:00 [INF] Authorization was successful.
+2020-06-26 05:57:10.008 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 05:57:10.013 -03:00 [INF] Authorization was successful.
+2020-06-26 05:57:23.796 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 05:57:24.419 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 14404.8619ms
+2020-06-26 05:57:24.434 -03:00 [INF] Request finished in 15320.0479ms 201 application/json; charset=utf-8
+2020-06-26 05:57:44.406 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 128
+2020-06-26 05:57:44.408 -03:00 [INF] CORS policy execution successful.
+2020-06-26 05:57:44.426 -03:00 [INF] Successfully validated the token.
+2020-06-26 05:57:44.427 -03:00 [INF] Authorization was successful.
+2020-06-26 05:57:44.429 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 05:57:44.430 -03:00 [INF] Authorization was successful.
+2020-06-26 05:57:57.415 -03:00 [INF] Starting web host
+2020-06-26 05:57:58.386 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 05:57:59.119 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 05:57:59.119 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 05:57:59.119 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 05:57:59.119 -03:00 [INF] Hosting environment: Development
+2020-06-26 05:57:59.120 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 05:58:04.340 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 128
+2020-06-26 05:58:04.385 -03:00 [INF] CORS policy execution successful.
+2020-06-26 05:58:04.762 -03:00 [INF] Successfully validated the token.
+2020-06-26 05:58:04.770 -03:00 [INF] Authorization was successful.
+2020-06-26 05:58:04.834 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 05:58:04.837 -03:00 [INF] Authorization was successful.
+2020-06-26 05:58:21.873 -03:00 [INF] Starting web host
+2020-06-26 05:58:23.619 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 05:58:24.488 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 05:58:24.488 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 05:58:24.489 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 05:58:24.489 -03:00 [INF] Hosting environment: Development
+2020-06-26 05:58:24.489 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 05:58:24.862 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 128
+2020-06-26 05:58:24.904 -03:00 [INF] CORS policy execution successful.
+2020-06-26 05:58:25.351 -03:00 [INF] Successfully validated the token.
+2020-06-26 05:58:25.361 -03:00 [INF] Authorization was successful.
+2020-06-26 05:58:25.505 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 05:58:25.510 -03:00 [INF] Authorization was successful.
+2020-06-26 05:59:07.855 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 42341.9509ms
+2020-06-26 05:59:07.869 -03:00 [INF] Request finished in 43013.0583ms 404 application/json
+2020-06-26 05:59:18.252 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 131
+2020-06-26 05:59:18.254 -03:00 [INF] CORS policy execution successful.
+2020-06-26 05:59:18.260 -03:00 [INF] Successfully validated the token.
+2020-06-26 05:59:18.264 -03:00 [INF] Authorization was successful.
+2020-06-26 05:59:18.268 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 05:59:18.273 -03:00 [INF] Authorization was successful.
+2020-06-26 05:59:34.989 -03:00 [INF] Starting web host
+2020-06-26 05:59:36.094 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 05:59:36.706 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 05:59:36.706 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 05:59:36.706 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 05:59:36.706 -03:00 [INF] Hosting environment: Development
+2020-06-26 05:59:36.707 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 05:59:36.974 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 131
+2020-06-26 05:59:37.014 -03:00 [INF] CORS policy execution successful.
+2020-06-26 05:59:37.461 -03:00 [INF] Successfully validated the token.
+2020-06-26 05:59:37.469 -03:00 [INF] Authorization was successful.
+2020-06-26 05:59:37.704 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 05:59:37.727 -03:00 [INF] Authorization was successful.
+2020-06-26 06:00:36.862 -03:00 [INF] Starting web host
+2020-06-26 06:00:37.803 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 06:00:38.291 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 06:00:38.291 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 06:00:38.292 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 06:00:38.292 -03:00 [INF] Hosting environment: Development
+2020-06-26 06:00:38.292 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 06:00:40.647 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 133
+2020-06-26 06:00:40.726 -03:00 [INF] CORS policy execution successful.
+2020-06-26 06:00:41.099 -03:00 [INF] Successfully validated the token.
+2020-06-26 06:00:41.109 -03:00 [INF] Authorization was successful.
+2020-06-26 06:00:41.179 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 06:00:41.193 -03:00 [INF] Authorization was successful.
+2020-06-26 06:01:00.097 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 06:01:00.138 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 18950.1398ms
+2020-06-26 06:01:00.150 -03:00 [INF] Request finished in 19510.0495ms 201 application/json; charset=utf-8
+2020-06-26 06:09:11.379 -03:00 [INF] Starting web host
+2020-06-26 06:09:12.466 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 06:09:12.965 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 06:09:12.966 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 06:09:12.966 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 06:09:12.966 -03:00 [INF] Hosting environment: Development
+2020-06-26 06:09:12.966 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 06:09:28.628 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 133
+2020-06-26 06:09:28.679 -03:00 [INF] CORS policy execution successful.
+2020-06-26 06:09:29.101 -03:00 [INF] Successfully validated the token.
+2020-06-26 06:09:29.109 -03:00 [INF] Authorization was successful.
+2020-06-26 06:09:29.186 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 06:09:29.190 -03:00 [INF] Authorization was successful.
+2020-06-26 06:09:44.788 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 15593.7534ms
+2020-06-26 06:09:44.803 -03:00 [INF] Request finished in 16183.3556ms 404 application/json
+2020-06-26 06:09:56.822 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 136
+2020-06-26 06:09:56.824 -03:00 [INF] CORS policy execution successful.
+2020-06-26 06:09:56.831 -03:00 [INF] Successfully validated the token.
+2020-06-26 06:09:56.832 -03:00 [INF] Authorization was successful.
+2020-06-26 06:09:56.834 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 06:09:56.837 -03:00 [INF] Authorization was successful.
+2020-06-26 06:12:57.888 -03:00 [INF] Starting web host
+2020-06-26 06:12:58.988 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 06:12:59.642 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 06:12:59.642 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 06:12:59.642 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 06:12:59.642 -03:00 [INF] Hosting environment: Development
+2020-06-26 06:12:59.642 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 06:13:21.891 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 132
+2020-06-26 06:13:21.961 -03:00 [INF] CORS policy execution successful.
+2020-06-26 06:13:22.424 -03:00 [INF] Successfully validated the token.
+2020-06-26 06:13:22.431 -03:00 [INF] Authorization was successful.
+2020-06-26 06:13:22.524 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 06:13:22.527 -03:00 [INF] Authorization was successful.
+2020-06-26 06:17:40.605 -03:00 [INF] Starting web host
+2020-06-26 06:17:53.720 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 06:17:54.406 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 06:17:54.407 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 06:17:54.407 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 06:17:54.407 -03:00 [INF] Hosting environment: Development
+2020-06-26 06:17:54.407 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 06:18:12.239 -03:00 [INF] Starting web host
+2020-06-26 06:18:19.710 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 06:18:20.413 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 06:18:20.413 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 06:18:20.414 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 06:18:20.414 -03:00 [INF] Hosting environment: Development
+2020-06-26 06:18:20.414 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 06:18:35.778 -03:00 [INF] Starting web host
+2020-06-26 06:18:36.943 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 06:18:37.465 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 06:18:37.466 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 06:18:37.466 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 06:18:37.466 -03:00 [INF] Hosting environment: Development
+2020-06-26 06:18:37.466 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 06:18:42.210 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 132
+2020-06-26 06:18:42.262 -03:00 [INF] CORS policy execution successful.
+2020-06-26 06:18:42.764 -03:00 [INF] Successfully validated the token.
+2020-06-26 06:18:42.773 -03:00 [INF] Authorization was successful.
+2020-06-26 06:19:16.529 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 06:19:16.532 -03:00 [INF] Authorization was successful.
+2020-06-26 06:20:10.452 -03:00 [INF] Starting web host
+2020-06-26 06:20:11.875 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 06:20:12.562 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 06:20:12.562 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 06:20:12.562 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 06:20:12.563 -03:00 [INF] Hosting environment: Development
+2020-06-26 06:20:12.563 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 06:20:17.922 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 132
+2020-06-26 06:20:17.969 -03:00 [INF] CORS policy execution successful.
+2020-06-26 06:20:18.397 -03:00 [INF] Successfully validated the token.
+2020-06-26 06:20:18.404 -03:00 [INF] Authorization was successful.
+2020-06-26 06:21:58.263 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 06:21:58.267 -03:00 [INF] Authorization was successful.
+2020-06-26 06:22:32.612 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 06:22:32.644 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 34373.6442ms
+2020-06-26 06:22:32.658 -03:00 [INF] Request finished in 134740.7246ms 201 application/json; charset=utf-8
+2020-06-26 06:28:40.776 -03:00 [INF] Starting web host
+2020-06-26 06:28:41.121 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 06:28:41.470 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 06:28:41.472 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 06:28:41.488 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 06:28:41.508 -03:00 [INF] Hosting environment: Production
+2020-06-26 06:28:41.514 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 06:28:58.582 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 131
+2020-06-26 06:28:58.626 -03:00 [INF] CORS policy execution successful.
+2020-06-26 06:28:59.010 -03:00 [INF] Successfully validated the token.
+2020-06-26 06:28:59.018 -03:00 [INF] Authorization was successful.
+2020-06-26 06:28:59.931 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 06:28:59.963 -03:00 [INF] Authorization was successful.
+2020-06-26 06:29:01.719 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 06:29:01.756 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 1796.439ms
+2020-06-26 06:29:01.776 -03:00 [INF] Request finished in 3196.6724ms 201 application/json; charset=utf-8
+2020-06-26 07:14:40.623 -03:00 [INF] Application is shutting down...

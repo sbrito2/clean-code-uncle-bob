@@ -1,0 +1,18 @@
+https://dzone.com/articles/customizing-aspnet-core-part-10-TagHelpers
+https://dzone.com/articles/customizing-aspnet-core-part-09-ActionFilter
+
+
+https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/middleware/?view=aspnetcore-3.1
+https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/middleware/write?view=aspnetcore-3.1
+https://andrewlock.net/creating-an-endpoint-from-multiple-middleware-in-aspnetcore-3/
+https://www.tutorialsteacher.com/core/aspnet-core-middleware
+https://dzone.com/articles/customizing-aspnet-core-part-6-middleware
+https://www.codeproject.com/Tips/1069790/Understand-Run-Use-Map-and-MapWhen-to-Hook-Middl-2
+
+
+Middlewares:
+    O middleware é um software montado em um pipeline de aplicativo para manipular solicitações e respostas.
+Cada componente de middleware no pipeline de solicitação é responsável por invocar o próximo componente no pipeline 
+ou causar um curto-circuito do pipeline
+
+use, run, map, mapWhen 

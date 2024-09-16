@@ -1,0 +1,9 @@
+Decorator
+Strategy
+Observer:
+
+observer vs pub-sub
+https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c
+https://refactoring.guru/pt-br/design-patterns/decorator
+https://sourcemaking.com/design_patterns/decorator
+https://ranjeet.dev/decorator-pattern-with-csharp/

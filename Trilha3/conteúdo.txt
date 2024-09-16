@@ -1,0 +1,50 @@
+
+Ementa:
+
+- IEnumerables, IQueryables, IList 
+
+- LINQ
+
+- Chapter 6: Objects and Data Structures
+
+
+RESUMO
+
+* IEnumerables
+	- É uma interface que implementa objetos com capacidade de enumeração, ou seja, permite que vá analisando elemento por elemento;
+	- Nao se pode editar os itens: adicionar, excluir, atualizar etc;
+	- Tudo o que você obtém em um IEnumerable é um enumerador que ajuda na iteração sobre os elementos;
+	- Um IEnumerable não mantém nem mesmo a contagem dos itens da lista; em vez disso, você precisa iterar os elementos para obter a contagem de itens;
+	- Permite que cada elemento vá sendo processado individualmente para cada operação necessária ao invés de processar todos elementos;
+		da coleção em cada operação separada;
+	- Bom para processar elementos que já estão na memória;
+	- Compilador com IEnumerable adia o trabalho até a sua execução final;
+	- Um IEnumerable suporta filtragem de elementos usando a cláusula where.
+
+* IQueryables
+	- Também é derivado de um IEnumerable<T>, ou seja, que define um objeto capaz de relacionar outros objetos em sequência;
+	- É uma interface mais específica em que gera uma expressão LINQ to SQL que é executada na camada do banco de dados.;
+	- Admite lazy loading permitindo uma melhor otimização de uma consulta;
+	- Ele gera uma query ou uma estrutura de consulta para uma base de dados e retorna estes resultados como uma lista ou um enumerável;
+	- A priori, um objeto que implementa IQueryables supõe que ele possa ser modificado.
+	- IQueryable is used to implement LINQ providers for the .NET Framework internals.
+
+* ICollection
+	- Collection é outro tipo de coleção, que deriva de IEnumerable e amplia sua funcionalidade para adicionar, remover, atualizar elemento na lista;
+	- Assim, ICollection também contém a contagem de elementos e não precisamos iterar sobre todos os elementos para obter o número total de elementos;
+	- O ICollection suporta enumerar os elementos, filtrar elementos, adicionar novos elementos, excluir elementos existentes 
+		atualizar elementos existentes e obter a contagem de itens disponíveis na lista.
+
+* IList
+ 	- List<T> estende do ICollection, assim também deriva do IEnumerable;
+ 	- Uma lista é uma coleção que permite que seus membros sejam enumerados, ou seja, que você vá analisando elemento por elemento;
+	- Listas e matrizes implementam IList. Essa interface é uma abstração que permite que tipos de lista sejam usados por meio de um único tipo de referência. Com ele, podemos criar um único método para receber um int [] ou uma List <int>,
+	- Um IList pode executar todas as operações combinadas de IEnumerable e ICollection, e mais algumas operações, como inserir ou remover um elemento no meio de uma lista;
+	- Permite usar um loop foreach ou um loop for para iterar sobre os elementos.
+	- Com a interface genérica do IList, você deve especificar um parâmetro de tipo. Se você deseja que seu método atue em ints, você pode usar IList <int>. Qualquer tipo (string, objeto) pode ser especificado
+
+* LINQ
+	- A Consulta Integrada à Linguagem (LINQ) é uma linguagem de consulta poderosa introduzida no .Net 3.5 e Visual Studio 2008. 
+	O LINQ pode ser usado com C # ou Visual Basic para consultar diferentes fontes de dados.
+
+

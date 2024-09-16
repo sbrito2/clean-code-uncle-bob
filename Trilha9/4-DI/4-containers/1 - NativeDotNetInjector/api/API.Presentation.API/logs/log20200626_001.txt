@@ -1,0 +1,163 @@
+2020-06-26 06:33:54.251 -03:00 [INF] Starting web host
+2020-06-26 06:33:55.785 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 06:33:56.513 -03:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+ ---> System.Net.Sockets.SocketException (10048): Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2020-06-26 06:33:56.780 -03:00 [FTL] Host terminated unexpectedly
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+ ---> System.Net.Sockets.SocketException (10048): Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at API.Presentation.API.Program.Main(String[] args) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API\Program.cs:line 33
+2020-06-26 07:15:34.823 -03:00 [INF] Starting web host
+2020-06-26 07:15:38.080 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 07:15:40.346 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 07:15:40.349 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 07:15:40.367 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 07:15:40.370 -03:00 [INF] Hosting environment: Production
+2020-06-26 07:15:40.374 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 07:23:06.349 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 131
+2020-06-26 07:23:06.483 -03:00 [INF] CORS policy execution successful.
+2020-06-26 07:23:07.290 -03:00 [INF] Successfully validated the token.
+2020-06-26 07:23:07.312 -03:00 [INF] Authorization was successful.
+2020-06-26 07:23:10.049 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 07:23:10.069 -03:00 [INF] Authorization was successful.
+2020-06-26 07:23:12.378 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 2304.8525ms
+2020-06-26 07:23:12.392 -03:00 [INF] Request finished in 6045.6313ms 404 application/json
+2020-06-26 07:23:22.349 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 130
+2020-06-26 07:23:22.356 -03:00 [INF] CORS policy execution successful.
+2020-06-26 07:23:22.374 -03:00 [INF] Successfully validated the token.
+2020-06-26 07:23:22.444 -03:00 [INF] Authorization was successful.
+2020-06-26 07:23:22.468 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 07:23:22.488 -03:00 [INF] Authorization was successful.
+2020-06-26 07:23:23.281 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 07:23:23.328 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 841.2101ms
+2020-06-26 07:23:23.346 -03:00 [INF] Request finished in 997.2502ms 201 application/json; charset=utf-8
+2020-06-26 07:25:16.318 -03:00 [INF] Application is shutting down...
+2020-06-26 07:25:57.542 -03:00 [INF] Starting web host
+2020-06-26 07:26:00.278 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 07:26:01.529 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 07:26:01.529 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 07:26:01.530 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 07:26:01.530 -03:00 [INF] Hosting environment: Development
+2020-06-26 07:26:01.530 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 07:49:59.160 -03:00 [INF] Starting web host
+2020-06-26 07:50:00.400 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 07:50:00.840 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 07:50:00.856 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 07:50:00.859 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 07:50:00.860 -03:00 [INF] Hosting environment: Production
+2020-06-26 07:50:00.862 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 07:50:28.928 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 131
+2020-06-26 07:50:29.024 -03:00 [INF] CORS policy execution successful.
+2020-06-26 07:50:33.004 -03:00 [INF] Successfully validated the token.
+2020-06-26 07:50:33.016 -03:00 [INF] Authorization was successful.
+2020-06-26 07:50:37.411 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 07:50:37.440 -03:00 [INF] Authorization was successful.
+2020-06-26 07:50:41.017 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 07:50:41.103 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 3657.1101ms
+2020-06-26 07:50:41.121 -03:00 [INF] Request finished in 12208.0984ms 201 application/json; charset=utf-8
+2020-06-26 07:51:45.405 -03:00 [INF] Application is shutting down...
+2020-06-26 07:52:56.444 -03:00 [INF] Starting web host
+2020-06-26 07:52:57.005 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 07:52:57.436 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 07:52:57.464 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 07:52:57.482 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 07:52:57.494 -03:00 [INF] Hosting environment: Production
+2020-06-26 07:52:57.496 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-26 07:53:05.659 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 125
+2020-06-26 07:53:05.723 -03:00 [INF] CORS policy execution successful.
+2020-06-26 07:53:06.002 -03:00 [INF] Successfully validated the token.
+2020-06-26 07:53:06.029 -03:00 [INF] Authorization was successful.
+2020-06-26 07:53:06.310 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 07:53:06.364 -03:00 [INF] Authorization was successful.
+2020-06-26 07:53:08.886 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 07:53:08.939 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 2571.429ms
+2020-06-26 07:53:08.967 -03:00 [INF] Request finished in 3313.2199ms 201 application/json; charset=utf-8
+2020-06-26 07:53:29.591 -03:00 [INF] Application is shutting down...
+2020-06-26 08:45:52.401 -03:00 [INF] Starting web host
+2020-06-26 08:45:55.156 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 08:45:55.963 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 08:45:55.974 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 08:45:56.000 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 08:45:56.004 -03:00 [INF] Hosting environment: Production
+2020-06-26 08:45:56.006 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\api-v2-with-flunt\api\API.Presentation.API
+2020-06-26 08:46:18.750 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 122
+2020-06-26 08:46:18.840 -03:00 [INF] CORS policy execution successful.
+2020-06-26 08:46:19.943 -03:00 [INF] Successfully validated the token.
+2020-06-26 08:46:19.956 -03:00 [INF] Authorization was successful.
+2020-06-26 08:46:20.860 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 08:46:20.917 -03:00 [INF] Authorization was successful.
+2020-06-26 08:46:23.899 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 3001.8823ms
+2020-06-26 08:46:23.984 -03:00 [INF] Request finished in 5239.7264ms 404 application/json
+2020-06-26 08:46:35.823 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 124
+2020-06-26 08:46:35.826 -03:00 [INF] CORS policy execution successful.
+2020-06-26 08:46:35.911 -03:00 [INF] Successfully validated the token.
+2020-06-26 08:46:35.918 -03:00 [INF] Authorization was successful.
+2020-06-26 08:46:35.942 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 08:46:35.986 -03:00 [INF] Authorization was successful.
+2020-06-26 08:46:36.626 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-26 08:46:36.677 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 691.0141ms
+2020-06-26 08:46:36.705 -03:00 [INF] Request finished in 882.5444ms 201 application/json; charset=utf-8
+2020-06-26 08:46:54.444 -03:00 [INF] Application is shutting down...
+2020-06-26 08:52:38.386 -03:00 [INF] Starting web host
+2020-06-26 08:52:38.800 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 08:52:39.065 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-26 08:52:39.068 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-26 08:52:39.081 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 08:52:39.096 -03:00 [INF] Hosting environment: Production
+2020-06-26 08:52:39.110 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\api-v2-with-flunt\api\API.Presentation.API
+2020-06-26 08:52:45.937 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 124
+2020-06-26 08:52:45.993 -03:00 [INF] CORS policy execution successful.
+2020-06-26 08:52:46.282 -03:00 [INF] Successfully validated the token.
+2020-06-26 08:52:46.292 -03:00 [INF] Authorization was successful.
+2020-06-26 08:52:46.683 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 08:52:46.721 -03:00 [INF] Authorization was successful.
+2020-06-26 08:52:50.472 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 3744.3031ms
+2020-06-26 08:52:50.499 -03:00 [INF] Request finished in 4565.5707ms 404 application/json
+2020-06-26 08:53:00.890 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/users application/json 123
+2020-06-26 08:53:00.893 -03:00 [INF] CORS policy execution successful.
+2020-06-26 08:53:00.902 -03:00 [INF] Successfully validated the token.
+2020-06-26 08:53:00.913 -03:00 [INF] Authorization was successful.
+2020-06-26 08:53:00.932 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(API.Presentation.API.ViewModels.User.UserRequestViewModel) on controller API.Presentation.API.Controllers.UserController (API.Presentation.API).
+2020-06-26 08:53:00.961 -03:00 [INF] Authorization was successful.
+2020-06-26 08:53:01.217 -03:00 [INF] Executed action API.Presentation.API.Controllers.UserController.CreateUser (API.Presentation.API) in 260.4903ms
+2020-06-26 08:53:01.238 -03:00 [INF] Request finished in 348.9363ms 404 application/json
+2020-06-26 08:53:59.498 -03:00 [INF] Application is shutting down...

@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "dgSpecHash": "/YID7y/1HtU02gkQehntfIzXyFlPAw9sl9MKul6Vnrc7aYLYs79vQacnv2adYreVhWw4PiRd0bZJ0YVnW03mFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luxfacta\\Music\\treinamento\\Trilha9\\1-Injection by hand\\constructor-by-hand\\console\\console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luxfacta\\.nuget\\packages\\catharsis.commons\\4.0.0\\catharsis.commons.4.0.0.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\google.api.gax\\3.0.0\\google.api.gax.3.0.0.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\google.api.gax.rest\\3.0.0\\google.api.gax.rest.3.0.0.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\google.apis\\1.44.1\\google.apis.1.44.1.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\google.apis.auth\\1.44.1\\google.apis.auth.1.44.1.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\google.apis.core\\1.44.1\\google.apis.core.1.44.1.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\google.apis.translate.v2\\1.42.0.875\\google.apis.translate.v2.1.42.0.875.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\google.cloud.translation.v2\\2.0.0\\google.cloud.translation.v2.2.0.0.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.5\\microsoft.extensions.configuration.3.1.5.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.5\\microsoft.extensions.configuration.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.5\\microsoft.extensions.configuration.binder.3.1.5.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.5\\microsoft.extensions.configuration.fileextensions.3.1.5.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.5\\microsoft.extensions.configuration.json.3.1.5.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.5\\microsoft.extensions.fileproviders.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.5\\microsoft.extensions.fileproviders.physical.3.1.5.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.5\\microsoft.extensions.filesystemglobbing.3.1.5.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\restsharp\\106.5.4\\restsharp.106.5.4.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\yandex.translator\\2.0.0\\yandex.translator.2.0.0.nupkg.sha512",
+    "C:\\Users\\luxfacta\\.nuget\\packages\\yandextranslatecsharpsdk\\1.2.0\\yandextranslatecsharpsdk.1.2.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'YandexTranslateCSharpSdk 1.2.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "YandexTranslateCSharpSdk",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Entity Framework Core
+
+Change Tracker API
+
+Lazy Loading, Eager Loading, Explicit Loading
+
+Mapping Properties With Fluent Api
+
+Mapping Properties With Data Annotations
+
+Clean Code - Chapter 7 - Error Handling

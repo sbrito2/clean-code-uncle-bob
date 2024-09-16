@@ -1,0 +1,13 @@
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.exe
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.deps.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.runtimeconfig.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.AssemblyInfo.cs
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Creational\Prototype\example\src\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.genruntimeconfig.cache

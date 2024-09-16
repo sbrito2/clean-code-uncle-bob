@@ -1,0 +1,13 @@
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\bin\Debug\netcoreapp3.1\InteratorPattern.exe
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\bin\Debug\netcoreapp3.1\InteratorPattern.deps.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\bin\Debug\netcoreapp3.1\InteratorPattern.runtimeconfig.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\bin\Debug\netcoreapp3.1\InteratorPattern.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\bin\Debug\netcoreapp3.1\InteratorPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\bin\Debug\netcoreapp3.1\InteratorPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\obj\Debug\netcoreapp3.1\InteratorPattern.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\obj\Debug\netcoreapp3.1\InteratorPattern.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\obj\Debug\netcoreapp3.1\InteratorPattern.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\obj\Debug\netcoreapp3.1\InteratorPattern.AssemblyInfo.cs
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\obj\Debug\netcoreapp3.1\InteratorPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\obj\Debug\netcoreapp3.1\InteratorPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Interator\example\src\InteratorPattern\obj\Debug\netcoreapp3.1\InteratorPattern.genruntimeconfig.cache

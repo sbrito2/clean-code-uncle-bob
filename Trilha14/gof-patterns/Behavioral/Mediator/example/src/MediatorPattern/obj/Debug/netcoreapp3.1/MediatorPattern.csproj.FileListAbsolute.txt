@@ -1,0 +1,13 @@
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\bin\Debug\netcoreapp3.1\MediatorPattern.exe
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\bin\Debug\netcoreapp3.1\MediatorPattern.deps.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\bin\Debug\netcoreapp3.1\MediatorPattern.runtimeconfig.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\bin\Debug\netcoreapp3.1\MediatorPattern.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\bin\Debug\netcoreapp3.1\MediatorPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\bin\Debug\netcoreapp3.1\MediatorPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\obj\Debug\netcoreapp3.1\MediatorPattern.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\obj\Debug\netcoreapp3.1\MediatorPattern.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\obj\Debug\netcoreapp3.1\MediatorPattern.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\obj\Debug\netcoreapp3.1\MediatorPattern.AssemblyInfo.cs
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\obj\Debug\netcoreapp3.1\MediatorPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\obj\Debug\netcoreapp3.1\MediatorPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Behavioral\Mediator\example\src\MediatorPattern\obj\Debug\netcoreapp3.1\MediatorPattern.genruntimeconfig.cache

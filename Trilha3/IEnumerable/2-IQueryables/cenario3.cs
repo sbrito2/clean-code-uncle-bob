@@ -1,0 +1,1 @@
+/* IQueryable is used to implement LINQ providers for the .NET Framework internals. */

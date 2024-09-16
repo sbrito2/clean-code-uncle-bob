@@ -1,0 +1,26 @@
+
+1 - TestingFrameworks: 
+	-Nunit
+	-xUnit
+
+2 - Mocking frameworks: 
+	-Moq
+	-Nsubstitute
+
+3 - Expected outcome specifier extension: 
+	-FluentAssertions 
+	-Shouldly
+
+4 - Objects's expected outcome specifier library: 
+	-ExpectedObject
+
+5 - Design Pattern: 
+	-Builder
+	-NBuilder (with Faker.Net e Bogus libraries para geração de dados) 
+
+
+
+
+
+
+

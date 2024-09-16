@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0YUvPfn9DpdgCgrbeivcQkZlUWXdQhjU/pCgCvd7OM5Yws3JuPf5MGZG5oY4GYMWTP317Kgw0/+88tV55RXndA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luxfacta\\Music\\treinamento\\Trilha14\\simple-examples-all-patterns\\Structural\\Flyweight\\Example\\src\\FlyweightPattern\\FlyweightPattern.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luxfacta\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

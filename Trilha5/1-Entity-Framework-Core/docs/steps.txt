@@ -1,0 +1,56 @@
+referência: https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet
+
+**EF Core 3.x
+
+ Instalar o dotnet ef: como ferramenta global
+
+dotnet tool install --global dotnet-ef
+
+
+1) Add a ferramenta de design 
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+
+1) add o tool para o  provider que for usar
+
+- sql server
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet ef -h (para ver o resultado)
+
+- postgree
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL 
+
+- MySql
+dotnet add package MySql.Data.EntityFrameworkCore 
+
+
+
+
+referência: https://docs.microsoft.com/pt-br/ef/core/what-is-new/ef-core-3.0/breaking-changes
+------------------------ dotnet ef comandos possíveis:
+
+1) dotnet ef dbcontext scaffold: gerar o dbcontext de uma base existente (DataBase First)
+
+Exemplos:
+
+- SQL server: 
+dotnet ef dbcontext scaffold "Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=OPENSPACE;Integrated Security=True"  
+    Microsoft.EntityFrameworkCore.SqlServer -o Models -f -c contextEntities
+
+- postgree
+dotnet ef dbcontext scaffold "Host=localhost;Database=db_coffe_store;user id=postgres;Password=local" Npgsql.EntityFrameworkCore.PostgreSQL -o Models -f -c contextEntities
+
+- MySql
+dotnet ef dbcontext scaffold "server=localhost;user=root;password=local;database=escola" MySql.Data.EntityFrameworkCore -o Models -f -c contextEntities
+    
+- projetos grandes referencia o .csproj do executavel
+dotnet ef dbcontext scaffold "Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=DATABASE_NAME;Integrated Security=True"  
+    Microsoft.EntityFrameworkCore.DATABASE_TYPE -o Models -f -c CONTEXT_NAME --startup-project=../rest.api/rest.api.csproj
+
+
+2)  criar uma base no banco de um dbcontext pré-existente na aplicação (Code First)
+
+-Crie as models
+-Crie o dataContext
+-no program add context.Database.EnsureCreated(); // Creates the database if not exists

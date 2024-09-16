@@ -1,0 +1,7 @@
+Referencia: https://docs.microsoft.com/pt-br/aspnet/core/mvc/overview?view=aspnetcore-3.1
+https://www.infoq.com/br/articles/migracao-net-framework-para-net-core/
+https://docs.microsoft.com/pt-br/dotnet/standard/choosing-core-framework-server
+https://code-maze.com/asp-net-core-mvc-series/
+http://www.macoratti.net/16/11/net_framcore1.htm
+https://docs.microsoft.com/pt-br/dotnet/core/docker/introduction
+https://docs.microsoft.com/pt-br/aspnet/core/mvc/views/razor?view=aspnetcore-3.1

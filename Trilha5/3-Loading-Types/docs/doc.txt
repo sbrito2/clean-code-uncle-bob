@@ -1,0 +1,17 @@
+1 - Lazy Loading:
+    For Lazy loading : because the load is lazy, if I call the dbset dpc_gestion all navigation properties won't be loaded. 
+This type of loading is the best in performance and responsiveness. It is enabled by default and If I'd like to re-enable it I have to set :
+
+context.Configuration.ProxyCreationEnabled = true;    
+context.Configuration.LazyLoadingEnabled = true;
+
+2 - Edger Loading
+Eager loading is the process whereby a query for one type of entity also loads related entities as part of the query, so that we don't need to execute a separate query for related entities. Eager loading is achieved using the Include() method.
+For the eager loading It is not lazy: it loaded all navigation properties when I load dpc_gestion. The navigation properties can be loaded using include method. To enable this loading type :
+
+context.Configuration.LazyLoadingEnabled = false;
+
+3 - Explicit Loading
+For the explicit loading It is like the eager loading but we use Load method instead of include.
+
+

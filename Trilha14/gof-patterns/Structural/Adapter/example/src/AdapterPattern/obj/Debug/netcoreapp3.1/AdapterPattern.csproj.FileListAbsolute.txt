@@ -1,0 +1,15 @@
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\bin\Debug\netcoreapp3.1\AdapterPattern.exe
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\bin\Debug\netcoreapp3.1\AdapterPattern.deps.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\bin\Debug\netcoreapp3.1\AdapterPattern.runtimeconfig.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\bin\Debug\netcoreapp3.1\AdapterPattern.runtimeconfig.dev.json
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\bin\Debug\netcoreapp3.1\AdapterPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\bin\Debug\netcoreapp3.1\AdapterPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\obj\Debug\netcoreapp3.1\AdapterPattern.csprojAssemblyReference.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\obj\Debug\netcoreapp3.1\AdapterPattern.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\obj\Debug\netcoreapp3.1\AdapterPattern.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\obj\Debug\netcoreapp3.1\AdapterPattern.AssemblyInfo.cs
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\obj\Debug\netcoreapp3.1\AdapterPattern.csproj.CopyComplete
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\obj\Debug\netcoreapp3.1\AdapterPattern.dll
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\obj\Debug\netcoreapp3.1\AdapterPattern.pdb
+C:\Users\luxfacta\Music\treinamento\Trilha14\simple-examples-all-patterns\Adapter\example\src\AdapterPattern\obj\Debug\netcoreapp3.1\AdapterPattern.genruntimeconfig.cache

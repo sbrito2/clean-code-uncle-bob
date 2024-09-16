@@ -1,0 +1,237 @@
+2020-06-22 22:38:43.141 -03:00 [INF] Starting web host
+2020-06-22 22:38:46.899 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-22 22:38:48.503 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-22 22:38:48.507 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-22 22:38:48.539 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-22 22:38:48.542 -03:00 [INF] Hosting environment: Production
+2020-06-22 22:38:48.548 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-22 22:39:05.380 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-06-22 22:39:05.488 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:39:07.176 -03:00 [INF] HTTP GET / responded 404 in 0.5128 ms
+2020-06-22 22:39:08.330 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:39:08.409 -03:00 [INF] Request finished in 3031.5589ms 404 
+2020-06-22 22:39:32.999 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2020-06-22 22:39:33.025 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:39:33.034 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:39:33.068 -03:00 [INF] Request finished in 69.7047ms 301 
+2020-06-22 22:39:33.076 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-06-22 22:39:33.097 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:39:33.228 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:39:33.231 -03:00 [INF] Request finished in 155.1916ms 200 text/html;charset=utf-8
+2020-06-22 22:39:33.251 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2020-06-22 22:39:33.252 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2020-06-22 22:39:33.267 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2020-06-22 22:39:33.389 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:39:33.391 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:39:33.393 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:39:33.639 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-06-22 22:39:33.639 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-06-22 22:39:33.671 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:39:33.671 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:39:33.674 -03:00 [INF] Request finished in 423.2916ms 200 text/css
+2020-06-22 22:39:33.675 -03:00 [INF] Request finished in 407.4852ms 200 application/javascript
+2020-06-22 22:39:33.714 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-06-22 22:39:33.770 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:39:33.773 -03:00 [INF] Request finished in 520.7376ms 200 application/javascript
+2020-06-22 22:39:34.121 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-06-22 22:39:34.177 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:39:34.487 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:39:34.489 -03:00 [INF] Request finished in 390.6782ms 200 application/json;charset=utf-8
+2020-06-22 22:41:06.764 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/properties/get-random-properties  
+2020-06-22 22:41:06.768 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:41:06.911 -03:00 [INF] Route matched with {action = "GetRandomProperties", controller = "Property"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetRandomProperties() on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-22 22:41:09.578 -03:00 [INF] Executing ObjectResult, writing value of type 'API.Infra.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-22 22:41:09.791 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.GetRandomProperties (API.Presentation.API) in 2835.3078ms
+2020-06-22 22:41:09.810 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:41:09.829 -03:00 [INF] Request finished in 3065.0524ms 200 application/json; charset=utf-8
+2020-06-22 22:41:14.460 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/properties/get-random-properties  
+2020-06-22 22:41:14.463 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:41:14.528 -03:00 [INF] Route matched with {action = "GetRandomProperties", controller = "Property"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetRandomProperties() on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-22 22:41:14.754 -03:00 [INF] Executing ObjectResult, writing value of type 'API.Infra.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-22 22:41:14.796 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.GetRandomProperties (API.Presentation.API) in 235.9686ms
+2020-06-22 22:41:14.826 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:41:14.828 -03:00 [INF] Request finished in 368.3515ms 200 application/json; charset=utf-8
+2020-06-22 22:44:29.566 -03:00 [INF] Application is shutting down...
+2020-06-22 22:44:40.117 -03:00 [INF] Starting web host
+2020-06-22 22:44:40.553 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-22 22:44:40.911 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-22 22:44:40.913 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-22 22:44:40.928 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-22 22:44:40.975 -03:00 [INF] Hosting environment: Production
+2020-06-22 22:44:41.032 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-22 22:44:50.161 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/properties/get-random-properties  
+2020-06-22 22:44:50.183 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:44:50.391 -03:00 [INF] Route matched with {action = "GetRandomProperties", controller = "Property"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetRandomProperties() on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-22 22:44:52.326 -03:00 [INF] Executing ObjectResult, writing value of type 'API.Infra.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-22 22:44:52.396 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.GetRandomProperties (API.Presentation.API) in 1973.8179ms
+2020-06-22 22:44:52.407 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:44:52.423 -03:00 [INF] Request finished in 2266.7872ms 200 application/json; charset=utf-8
+2020-06-22 22:44:55.669 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/properties/get-random-properties  
+2020-06-22 22:44:55.677 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:44:55.709 -03:00 [INF] Route matched with {action = "GetRandomProperties", controller = "Property"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetRandomProperties() on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-22 22:44:55.969 -03:00 [INF] Executing ObjectResult, writing value of type 'API.Infra.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-22 22:44:56.041 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.GetRandomProperties (API.Presentation.API) in 298.9601ms
+2020-06-22 22:44:56.044 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:44:56.062 -03:00 [INF] Request finished in 393.0119ms 200 application/json; charset=utf-8
+2020-06-22 22:45:02.113 -03:00 [INF] Application is shutting down...
+2020-06-22 22:45:40.677 -03:00 [INF] Starting web host
+2020-06-22 22:45:41.139 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-22 22:45:41.514 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-22 22:45:41.516 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-22 22:45:41.531 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-22 22:45:41.533 -03:00 [INF] Hosting environment: Production
+2020-06-22 22:45:41.535 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-22 22:45:51.757 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/properties/get-random-properties  
+2020-06-22 22:45:51.783 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:45:51.946 -03:00 [INF] Route matched with {action = "GetRandomProperties", controller = "Property"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetRandomProperties() on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-22 22:45:54.352 -03:00 [INF] Executing ObjectResult, writing value of type 'API.Infra.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-22 22:45:54.467 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.GetRandomProperties (API.Presentation.API) in 2488.0744ms
+2020-06-22 22:45:54.472 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:45:54.490 -03:00 [INF] Request finished in 2736.2227ms 200 application/json; charset=utf-8
+2020-06-22 22:45:59.286 -03:00 [INF] Application is shutting down...
+2020-06-22 22:46:07.373 -03:00 [INF] Starting web host
+2020-06-22 22:46:07.816 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-22 22:46:08.155 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-22 22:46:08.157 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-22 22:46:08.159 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-22 22:46:08.161 -03:00 [INF] Hosting environment: Production
+2020-06-22 22:46:08.163 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-22 22:46:10.814 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/properties/get-random-properties  
+2020-06-22 22:46:10.834 -03:00 [INF] No cached response available for this request.
+2020-06-22 22:46:10.998 -03:00 [INF] Route matched with {action = "GetRandomProperties", controller = "Property"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetRandomProperties() on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-22 22:46:13.022 -03:00 [INF] Executing ObjectResult, writing value of type 'API.Infra.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-22 22:46:13.100 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.GetRandomProperties (API.Presentation.API) in 2064.2897ms
+2020-06-22 22:46:13.112 -03:00 [INF] The response could not be cached for this request.
+2020-06-22 22:46:13.124 -03:00 [INF] Request finished in 2313.8281ms 200 application/json; charset=utf-8
+2020-06-22 22:46:20.189 -03:00 [INF] Application is shutting down...
+2020-06-22 22:48:23.310 -03:00 [INF] Starting web host
+2020-06-22 22:48:23.799 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-22 22:48:24.354 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-22 22:48:24.614 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-22 22:48:24.734 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-22 22:48:24.738 -03:00 [INF] Hosting environment: Production
+2020-06-22 22:48:24.789 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-22 22:50:04.466 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/customers application/json 150
+2020-06-22 22:50:04.524 -03:00 [INF] CORS policy execution successful.
+2020-06-22 22:50:04.705 -03:00 [INF] Route matched with {action = "CreateCustomer", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateCustomer(API.Presentation.API.ViewModels.Customer.CustomerRequestViewModel) on controller API.Presentation.API.Controllers.CustomerController (API.Presentation.API).
+2020-06-22 22:50:07.975 -03:00 [INF] Executed action API.Presentation.API.Controllers.CustomerController.CreateCustomer (API.Presentation.API) in 3231.6008ms
+2020-06-22 22:50:08.170 -03:00 [ERR] Connection id "0HM0N2UVTDTHO", Request id "0HM0N2UVTDTHO:00000001": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at API.Application.Services.CustomerService.Add(Customer customer) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Application\Services\CustomerService.cs:line 53
+   at API.Presentation.API.Controllers.CustomerController.CreateCustomer(CustomerRequestViewModel userRequest) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API\Controllers\CustomerController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-06-22 22:50:08.891 -03:00 [INF] Request finished in 4429.5682ms 500 
+2020-06-22 22:50:29.310 -03:00 [INF] Application is shutting down...
+2020-06-22 22:52:07.005 -03:00 [INF] Starting web host
+2020-06-22 22:52:23.018 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-22 22:52:28.255 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-22 22:52:28.256 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-22 22:52:28.256 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-22 22:52:28.256 -03:00 [INF] Hosting environment: Development
+2020-06-22 22:52:28.256 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-22 22:53:00.671 -03:00 [INF] Starting web host
+2020-06-22 22:53:10.672 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-22 22:53:11.191 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-22 22:53:11.191 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-22 22:53:11.191 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-22 22:53:11.191 -03:00 [INF] Hosting environment: Development
+2020-06-22 22:53:11.191 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-22 22:53:37.235 -03:00 [INF] Starting web host
+2020-06-22 22:53:38.442 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-22 22:53:39.004 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-22 22:53:39.004 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-22 22:53:39.004 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-22 22:53:39.005 -03:00 [INF] Hosting environment: Development
+2020-06-22 22:53:39.005 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-22 22:53:43.126 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/customers application/json 150
+2020-06-22 22:53:43.207 -03:00 [INF] CORS policy execution successful.
+2020-06-22 22:53:43.640 -03:00 [INF] Route matched with {action = "CreateCustomer", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateCustomer(API.Presentation.API.ViewModels.Customer.CustomerRequestViewModel) on controller API.Presentation.API.Controllers.CustomerController (API.Presentation.API).
+2020-06-22 22:54:53.279 -03:00 [INF] Starting web host
+2020-06-22 22:54:53.813 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-22 22:54:54.313 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-22 22:54:54.346 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-22 22:54:54.386 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-22 22:54:54.388 -03:00 [INF] Hosting environment: Production
+2020-06-22 22:54:54.389 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-22 22:54:57.323 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/customers application/json 150
+2020-06-22 22:54:57.392 -03:00 [INF] CORS policy execution successful.
+2020-06-22 22:54:57.572 -03:00 [INF] Route matched with {action = "CreateCustomer", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateCustomer(API.Presentation.API.ViewModels.Customer.CustomerRequestViewModel) on controller API.Presentation.API.Controllers.CustomerController (API.Presentation.API).
+2020-06-22 22:55:11.370 -03:00 [INF] Executed action API.Presentation.API.Controllers.CustomerController.CreateCustomer (API.Presentation.API) in 13757.0583ms
+2020-06-22 22:55:11.390 -03:00 [ERR] Connection id "0HM0N31N6GCAS", Request id "0HM0N31N6GCAS:00000001": An unhandled exception was thrown by the application.
+API.Infra.Utils.Security.Exceptions.UnprocessableException: O e-mail informado não é válido.
+   at API.Domain.Services.EmailService.Send(String subject, String message, Boolean isBodyHtml) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Application\Services\EmailService.cs:line 44
+   at API.Application.Services.CustomerService.Add(Customer customer) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Application\Services\CustomerService.cs:line 54
+   at API.Presentation.API.Controllers.CustomerController.CreateCustomer(CustomerRequestViewModel userRequest) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API\Controllers\CustomerController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-06-22 22:55:11.764 -03:00 [INF] Request finished in 14445.0422ms 500 
+2020-06-22 22:55:16.608 -03:00 [INF] Application is shutting down...
+2020-06-22 22:55:27.949 -03:00 [INF] Starting web host
+2020-06-22 22:55:29.197 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-22 22:55:29.953 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-22 22:55:29.954 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-22 22:55:29.955 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-22 22:55:29.955 -03:00 [INF] Hosting environment: Development
+2020-06-22 22:55:29.955 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-22 22:55:47.165 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/customers application/json 150
+2020-06-22 22:55:47.256 -03:00 [INF] CORS policy execution successful.
+2020-06-22 22:55:47.490 -03:00 [INF] Route matched with {action = "CreateCustomer", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateCustomer(API.Presentation.API.ViewModels.Customer.CustomerRequestViewModel) on controller API.Presentation.API.Controllers.CustomerController (API.Presentation.API).
+2020-06-22 22:58:14.327 -03:00 [INF] Starting web host
+2020-06-22 22:58:14.776 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-22 22:58:15.077 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-22 22:58:15.079 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-22 22:58:15.097 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-22 22:58:15.100 -03:00 [INF] Hosting environment: Production
+2020-06-22 22:58:15.124 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-22 22:58:23.537 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/customers application/json 150
+2020-06-22 22:58:23.590 -03:00 [INF] CORS policy execution successful.
+2020-06-22 22:58:23.777 -03:00 [INF] Route matched with {action = "CreateCustomer", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateCustomer(API.Presentation.API.ViewModels.Customer.CustomerRequestViewModel) on controller API.Presentation.API.Controllers.CustomerController (API.Presentation.API).
+2020-06-22 22:58:29.649 -03:00 [INF] Executing ObjectResult, writing value of type 'API.Infra.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-22 22:58:29.746 -03:00 [INF] Executed action API.Presentation.API.Controllers.CustomerController.CreateCustomer (API.Presentation.API) in 5929.8611ms
+2020-06-22 22:58:29.781 -03:00 [INF] Request finished in 6246.1947ms 201 application/json; charset=utf-8
+2020-06-22 22:59:12.683 -03:00 [INF] Application is shutting down...

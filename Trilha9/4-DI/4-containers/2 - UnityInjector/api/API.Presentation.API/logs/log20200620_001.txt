@@ -1,0 +1,370 @@
+2020-06-20 22:44:40.839 -03:00 [INF] Starting web host
+2020-06-20 22:44:41.209 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-20 22:44:41.540 -03:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+ ---> System.Net.Sockets.SocketException (10048): Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2020-06-20 22:44:41.818 -03:00 [FTL] Host terminated unexpectedly
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+ ---> System.Net.Sockets.SocketException (10048): Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at API.Presentation.API.Program.Main(String[] args) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API\Program.cs:line 33
+2020-06-20 22:44:53.978 -03:00 [INF] Starting web host
+2020-06-20 22:44:54.295 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-20 22:44:54.572 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-20 22:44:54.575 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-20 22:44:54.588 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-20 22:44:54.590 -03:00 [INF] Hosting environment: Development
+2020-06-20 22:44:54.592 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-20 22:45:01.596 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/customers/send-email application/json 126
+2020-06-20 22:45:01.643 -03:00 [INF] CORS policy execution successful.
+2020-06-20 22:45:01.820 -03:00 [INF] Route matched with {action = "SendEmail", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmail(API.Presentation.API.ViewModels.Utils.EmailViewModel) on controller API.Presentation.API.Controllers.CustomerController (API.Presentation.API).
+2020-06-20 22:45:05.787 -03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-06-20 22:45:05.838 -03:00 [INF] Executed action API.Presentation.API.Controllers.CustomerController.SendEmail (API.Presentation.API) in 3979.5297ms
+2020-06-20 22:45:05.865 -03:00 [INF] Request finished in 4269.9026ms 200 
+2020-06-20 22:54:50.290 -03:00 [INF] Application is shutting down...
+2020-06-20 22:55:13.530 -03:00 [INF] Starting web host
+2020-06-20 22:55:15.093 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-20 22:55:15.722 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-20 22:55:15.723 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-20 22:55:15.723 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-20 22:55:15.724 -03:00 [INF] Hosting environment: Development
+2020-06-20 22:55:15.724 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-20 22:55:15.907 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-06-20 22:55:15.994 -03:00 [INF] No cached response available for this request.
+2020-06-20 22:55:16.115 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 22:55:16.135 -03:00 [INF] Request finished in 230.477ms 200 text/html;charset=utf-8
+2020-06-20 22:55:16.265 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2020-06-20 22:55:16.270 -03:00 [INF] No cached response available for this request.
+2020-06-20 22:55:16.313 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2020-06-20 22:55:16.313 -03:00 [INF] No cached response available for this request.
+2020-06-20 22:55:16.325 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2020-06-20 22:55:16.325 -03:00 [INF] No cached response available for this request.
+2020-06-20 22:55:16.575 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-06-20 22:55:16.577 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 22:55:16.592 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-06-20 22:55:16.598 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 22:55:16.602 -03:00 [INF] Request finished in 276.9909ms 200 application/javascript
+2020-06-20 22:55:16.607 -03:00 [INF] Request finished in 341.9953ms 200 text/css
+2020-06-20 22:55:16.648 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-06-20 22:55:16.648 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 22:55:16.648 -03:00 [INF] Request finished in 335.3377ms 200 application/javascript
+2020-06-20 22:55:17.101 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-06-20 22:55:17.103 -03:00 [INF] No cached response available for this request.
+2020-06-20 22:55:17.536 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 22:55:17.537 -03:00 [INF] Request finished in 438.4276ms 200 application/json;charset=utf-8
+2020-06-20 22:55:34.177 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/customers/send-email application/json 60
+2020-06-20 22:55:34.181 -03:00 [INF] CORS policy execution successful.
+2020-06-20 22:55:34.418 -03:00 [INF] Route matched with {action = "SendEmail", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmail(API.Presentation.API.ViewModels.Utils.EmailViewModel) on controller API.Presentation.API.Controllers.CustomerController (API.Presentation.API).
+2020-06-20 22:55:49.026 -03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-06-20 22:55:49.040 -03:00 [INF] Executed action API.Presentation.API.Controllers.CustomerController.SendEmail (API.Presentation.API) in 14614.8103ms
+2020-06-20 22:55:49.050 -03:00 [INF] Request finished in 14872.2144ms 200 
+2020-06-20 23:08:29.106 -03:00 [INF] Starting web host
+2020-06-20 23:08:29.439 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-20 23:08:29.729 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-20 23:08:29.731 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-20 23:08:29.743 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-20 23:08:29.745 -03:00 [INF] Hosting environment: Development
+2020-06-20 23:08:29.747 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-20 23:08:36.725 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-06-20 23:08:36.774 -03:00 [INF] No cached response available for this request.
+2020-06-20 23:08:36.862 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 23:08:36.936 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2020-06-20 23:08:36.937 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2020-06-20 23:08:36.941 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2020-06-20 23:08:37.124 -03:00 [INF] No cached response available for this request.
+2020-06-20 23:08:37.132 -03:00 [INF] Request finished in 409.8593ms 200 text/html;charset=utf-8
+2020-06-20 23:08:37.164 -03:00 [INF] No cached response available for this request.
+2020-06-20 23:08:37.168 -03:00 [INF] No cached response available for this request.
+2020-06-20 23:08:37.264 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-06-20 23:08:37.275 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-06-20 23:08:37.294 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-06-20 23:08:37.333 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 23:08:37.333 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 23:08:37.337 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 23:08:37.370 -03:00 [INF] Request finished in 433.7542ms 200 text/css
+2020-06-20 23:08:37.370 -03:00 [INF] Request finished in 428.9899ms 200 application/javascript
+2020-06-20 23:08:37.400 -03:00 [INF] Request finished in 462.8708ms 200 application/javascript
+2020-06-20 23:08:37.844 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-06-20 23:08:37.846 -03:00 [INF] No cached response available for this request.
+2020-06-20 23:08:38.105 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 23:08:38.131 -03:00 [INF] Request finished in 287.3519ms 200 application/json;charset=utf-8
+2020-06-20 23:09:04.614 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/properties multipart/form-data; boundary=----WebKitFormBoundary6So8Ti11qTSewQtk 1883
+2020-06-20 23:09:04.633 -03:00 [INF] CORS policy execution successful.
+2020-06-20 23:09:04.906 -03:00 [INF] Route matched with {action = "CreateProperty", controller = "Property"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProperty(API.Presentation.API.ViewModels.Property.PropertyRequestViewModel) on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-20 23:09:06.068 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-20 23:09:06.129 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.CreateProperty (API.Presentation.API) in 1190.0949ms
+2020-06-20 23:09:06.142 -03:00 [INF] Request finished in 1528.7287ms 400 application/problem+json; charset=utf-8
+2020-06-20 23:13:59.146 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/properties multipart/form-data; boundary=----WebKitFormBoundaryqhWOqyiUNvjz1tzk 1920
+2020-06-20 23:13:59.177 -03:00 [INF] CORS policy execution successful.
+2020-06-20 23:13:59.191 -03:00 [INF] Route matched with {action = "CreateProperty", controller = "Property"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProperty(API.Presentation.API.ViewModels.Property.PropertyRequestViewModel) on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-20 23:14:01.540 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.CreateProperty (API.Presentation.API) in 2303.6393ms
+2020-06-20 23:14:01.633 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`auction_system`.`property`, CONSTRAINT `FK_PROPERTY_CITY_CIT_ID` FOREIGN KEY (`CIT_ID`) REFERENCES `city` (`CIT_ID`) ON DELETE CASCADE)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at MySql.Data.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at API.Infraestructure.Data.Context.DomainContext.SaveChanges() in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Infraestructure.Data\Context\DomainContext.cs:line 70
+   at API.Application.Services.PropertyService.Add(Property property, List`1 photos) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Application\Services\PropertyService.cs:line 50
+   at API.Presentation.API.Controllers.PropertyController.CreateProperty(PropertyRequestViewModel propertyRequest) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API\Controllers\PropertyController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-06-20 23:14:01.974 -03:00 [INF] Request finished in 2828.3154ms 500 text/plain
+2020-06-20 23:15:38.021 -03:00 [INF] Application is shutting down...
+2020-06-20 23:19:06.232 -03:00 [INF] Starting web host
+2020-06-20 23:19:06.683 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-20 23:19:06.938 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-20 23:19:06.941 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-20 23:19:06.954 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-20 23:19:06.963 -03:00 [INF] Hosting environment: Development
+2020-06-20 23:19:06.967 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-20 23:19:11.217 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/properties multipart/form-data; boundary=----WebKitFormBoundaryZuag1ZewsrcxQmVk 1920
+2020-06-20 23:19:11.287 -03:00 [INF] CORS policy execution successful.
+2020-06-20 23:19:11.472 -03:00 [INF] Route matched with {action = "CreateProperty", controller = "Property"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProperty(API.Presentation.API.ViewModels.Property.PropertyRequestViewModel) on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-20 23:19:14.049 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.CreateProperty (API.Presentation.API) in 2545.7513ms
+2020-06-20 23:19:14.092 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`auction_system`.`property`, CONSTRAINT `FK_PROPERTY_CITY_CIT_ID` FOREIGN KEY (`CIT_ID`) REFERENCES `city` (`CIT_ID`) ON DELETE CASCADE)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at MySql.Data.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at API.Infraestructure.Data.Context.DomainContext.SaveChanges() in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Infraestructure.Data\Context\DomainContext.cs:line 70
+   at API.Application.Services.PropertyService.Add(Property property, List`1 photos) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Application\Services\PropertyService.cs:line 57
+   at API.Presentation.API.Controllers.PropertyController.CreateProperty(PropertyRequestViewModel propertyRequest) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API\Controllers\PropertyController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-06-20 23:19:14.453 -03:00 [INF] Request finished in 3239.5535ms 500 text/plain
+2020-06-20 23:20:26.456 -03:00 [INF] Application is shutting down...
+2020-06-20 23:20:35.307 -03:00 [INF] Starting web host
+2020-06-20 23:20:35.925 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-20 23:20:36.284 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-20 23:20:36.287 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-20 23:20:36.674 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-20 23:20:36.679 -03:00 [INF] Hosting environment: Development
+2020-06-20 23:20:36.681 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-20 23:20:42.756 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/properties multipart/form-data; boundary=----WebKitFormBoundary8Ly1nifEcqZAxgKK 1920
+2020-06-20 23:20:42.840 -03:00 [INF] CORS policy execution successful.
+2020-06-20 23:20:43.065 -03:00 [INF] Route matched with {action = "CreateProperty", controller = "Property"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProperty(API.Presentation.API.ViewModels.Property.PropertyRequestViewModel) on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-20 23:20:45.273 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.CreateProperty (API.Presentation.API) in 2175.2668ms
+2020-06-20 23:20:45.287 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+API.CrossCutting.Utils.Security.Exceptions.NotFoundException: Cidade não encontrado.
+   at API.Application.Services.PropertyService.Add(Property property, List`1 photos) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Application\Services\PropertyService.cs:line 55
+   at API.Presentation.API.Controllers.PropertyController.CreateProperty(PropertyRequestViewModel propertyRequest) in C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API\Controllers\PropertyController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-06-20 23:20:45.654 -03:00 [INF] Request finished in 2900.6631ms 500 text/plain
+2020-06-20 23:21:16.836 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-06-20 23:21:16.847 -03:00 [INF] No cached response available for this request.
+2020-06-20 23:21:16.910 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 23:21:16.914 -03:00 [INF] Request finished in 78.1321ms 200 text/html;charset=utf-8
+2020-06-20 23:21:16.963 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2020-06-20 23:21:16.966 -03:00 [INF] No cached response available for this request.
+2020-06-20 23:21:17.023 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-06-20 23:21:17.051 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 23:21:17.055 -03:00 [INF] Request finished in 91.3585ms 200 text/css
+2020-06-20 23:21:17.469 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-06-20 23:21:17.503 -03:00 [INF] No cached response available for this request.
+2020-06-20 23:21:17.783 -03:00 [INF] The response could not be cached for this request.
+2020-06-20 23:21:17.811 -03:00 [INF] Request finished in 341.9984ms 200 application/json;charset=utf-8
+2020-06-20 23:22:25.251 -03:00 [INF] Application is shutting down...
+2020-06-20 23:22:48.815 -03:00 [INF] Starting web host
+2020-06-20 23:22:49.991 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-20 23:22:50.557 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-20 23:22:50.558 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-20 23:22:50.558 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-20 23:22:50.558 -03:00 [INF] Hosting environment: Development
+2020-06-20 23:22:50.558 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-20 23:23:30.475 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/properties multipart/form-data; boundary=----WebKitFormBoundarydMBFKDgHX1mv0n8l 1939
+2020-06-20 23:23:30.548 -03:00 [INF] CORS policy execution successful.
+2020-06-20 23:23:30.816 -03:00 [INF] Route matched with {action = "CreateProperty", controller = "Property"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProperty(API.Presentation.API.ViewModels.Property.PropertyRequestViewModel) on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-20 23:23:59.924 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-20 23:24:02.126 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.CreateProperty (API.Presentation.API) in 31302.592ms
+2020-06-20 23:24:02.142 -03:00 [INF] Request finished in 31675.2939ms 201 application/json; charset=utf-8
+2020-06-20 23:33:11.011 -03:00 [INF] Starting web host
+2020-06-20 23:33:11.411 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-20 23:33:11.901 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-20 23:33:11.904 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-20 23:33:11.911 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-20 23:33:11.940 -03:00 [INF] Hosting environment: Development
+2020-06-20 23:33:11.988 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-20 23:33:37.188 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/properties multipart/form-data; boundary=--------------------------111269976012577583046663 725
+2020-06-20 23:33:37.222 -03:00 [INF] Request finished in 36.7824ms 307 
+2020-06-20 23:33:53.546 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/properties multipart/form-data; boundary=--------------------------384546154210005452165919 725
+2020-06-20 23:33:53.570 -03:00 [INF] Request finished in 24.294ms 307 
+2020-06-20 23:34:04.858 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/properties multipart/form-data; boundary=--------------------------332203040202551285465868 725
+2020-06-20 23:34:04.894 -03:00 [INF] Request finished in 36.149ms 307 
+2020-06-20 23:34:16.019 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/properties multipart/form-data; boundary=--------------------------268254560648596110595206 725
+2020-06-20 23:34:16.088 -03:00 [INF] Request finished in 70.774ms 307 
+2020-06-20 23:34:17.041 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/properties multipart/form-data; boundary=--------------------------864078443379450700460184 725
+2020-06-20 23:34:17.072 -03:00 [INF] Request finished in 31.0638ms 307 
+2020-06-20 23:35:21.347 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/properties multipart/form-data; boundary=--------------------------319789075636438509674257 725
+2020-06-20 23:35:21.389 -03:00 [INF] Request finished in 42.0709ms 307 
+2020-06-20 23:36:42.766 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/properties multipart/form-data; boundary=--------------------------406328192402509434689960 725
+2020-06-20 23:36:42.792 -03:00 [INF] Request finished in 26.0223ms 307 
+2020-06-20 23:42:35.601 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/properties multipart/form-data; boundary=----WebKitFormBoundaryB7pdZA31mdVXzd1x 1936
+2020-06-20 23:42:35.659 -03:00 [INF] CORS policy execution successful.
+2020-06-20 23:42:35.835 -03:00 [INF] Route matched with {action = "CreateProperty", controller = "Property"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProperty(API.Presentation.API.ViewModels.Property.PropertyRequestViewModel) on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-20 23:42:37.025 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-20 23:42:37.055 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.CreateProperty (API.Presentation.API) in 1183.4674ms
+2020-06-20 23:42:37.074 -03:00 [INF] Request finished in 1473.3205ms 400 application/problem+json; charset=utf-8
+2020-06-20 23:44:47.278 -03:00 [INF] Application is shutting down...
+2020-06-20 23:48:29.904 -03:00 [INF] Starting web host
+2020-06-20 23:48:30.210 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-20 23:48:30.544 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-20 23:48:30.547 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-20 23:48:30.570 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-20 23:48:30.572 -03:00 [INF] Hosting environment: Development
+2020-06-20 23:48:30.573 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-20 23:48:57.095 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/properties multipart/form-data; boundary=----WebKitFormBoundarytG4Dz7oGLHSWMyu1 1936
+2020-06-20 23:48:57.160 -03:00 [INF] CORS policy execution successful.
+2020-06-20 23:48:57.355 -03:00 [INF] Route matched with {action = "CreateProperty", controller = "Property"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProperty(API.Presentation.API.ViewModels.Property.PropertyRequestViewModel) on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-20 23:48:58.533 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-20 23:48:58.560 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.CreateProperty (API.Presentation.API) in 1175.5805ms
+2020-06-20 23:48:58.592 -03:00 [INF] Request finished in 1500.2821ms 400 application/problem+json; charset=utf-8
+2020-06-20 23:49:18.458 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/properties multipart/form-data; boundary=----WebKitFormBoundary2lzKz9W2HSaRawgm 1940
+2020-06-20 23:49:18.483 -03:00 [INF] CORS policy execution successful.
+2020-06-20 23:49:18.493 -03:00 [INF] Route matched with {action = "CreateProperty", controller = "Property"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProperty(API.Presentation.API.ViewModels.Property.PropertyRequestViewModel) on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-20 23:49:18.658 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-06-20 23:49:18.662 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.CreateProperty (API.Presentation.API) in 110.7499ms
+2020-06-20 23:49:18.667 -03:00 [INF] Request finished in 208.6376ms 400 application/problem+json; charset=utf-8
+2020-06-20 23:49:36.357 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/properties multipart/form-data; boundary=----WebKitFormBoundary3aJL4W0LnVuUp9Tm 1938
+2020-06-20 23:49:36.402 -03:00 [INF] CORS policy execution successful.
+2020-06-20 23:49:36.434 -03:00 [INF] Route matched with {action = "CreateProperty", controller = "Property"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProperty(API.Presentation.API.ViewModels.Property.PropertyRequestViewModel) on controller API.Presentation.API.Controllers.PropertyController (API.Presentation.API).
+2020-06-20 23:49:41.476 -03:00 [INF] Executing ObjectResult, writing value of type 'API.CrossCutting.Utils.Response.GenericResponse`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-06-20 23:49:41.503 -03:00 [INF] Executed action API.Presentation.API.Controllers.PropertyController.CreateProperty (API.Presentation.API) in 5035.7084ms
+2020-06-20 23:49:41.521 -03:00 [INF] Request finished in 5164.4233ms 201 application/json; charset=utf-8
+2020-06-20 23:51:50.291 -03:00 [INF] Application is shutting down...
+2020-06-20 23:53:06.837 -03:00 [INF] Starting web host
+2020-06-20 23:53:07.189 -03:00 [INF] User profile is available. Using 'C:\Users\luxfacta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-20 23:53:07.488 -03:00 [INF] Now listening on: https://localhost:5001
+2020-06-20 23:53:07.490 -03:00 [INF] Now listening on: http://localhost:5000
+2020-06-20 23:53:07.493 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-20 23:53:07.495 -03:00 [INF] Hosting environment: Development
+2020-06-20 23:53:07.507 -03:00 [INF] Content root path: C:\Users\luxfacta\Documents\Projetos\mestre_dos_leiloes_api\mestre_dos_leiloes_api\api\API.Presentation.API
+2020-06-20 23:53:08.986 -03:00 [INF] Application is shutting down...

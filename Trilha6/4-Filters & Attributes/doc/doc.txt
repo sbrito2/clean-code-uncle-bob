@@ -1,0 +1,17 @@
+
+
+https://docs.microsoft.com/pt-br/aspnet/core/mvc/controllers/filters?view=aspnetcore-3.1#action-filters
+https://docs.microsoft.com/pt-br/aspnet/core/mvc/controllers/filters?view=aspnetcore-3.1#authorization-filters
+
+
+autenticação vs autorização
+https://docs.microsoft.com/pt-br/aspnet/core/security/?view=aspnetcore-3.1
+
+
+https://docs.microsoft.com/pt-br/aspnet/core/performance/response-compression?view=aspnetcore-3.1
+
+Middleware vs Filters
+The main difference between them is their scope. ... 
+Middleware only has access to the HttpContext and anything added by preceding middleware. 
+In contrast, filters have access to the wider MVC context, so can access routing data and model binding 
+information for example.

@@ -1,0 +1,12 @@
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\bin\Debug\netcoreapp3.1\API.Domain.Data.deps.json
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\bin\Debug\netcoreapp3.1\API.Domain.Data.runtimeconfig.json
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\bin\Debug\netcoreapp3.1\API.Domain.Data.runtimeconfig.dev.json
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\bin\Debug\netcoreapp3.1\API.Domain.Data.dll
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\bin\Debug\netcoreapp3.1\API.Domain.Data.pdb
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\obj\Debug\netcoreapp3.1\API.Domain.Data.csprojAssemblyReference.cache
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\obj\Debug\netcoreapp3.1\API.Domain.Data.csproj.CoreCompileInputs.cache
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\obj\Debug\netcoreapp3.1\API.Domain.Data.AssemblyInfoInputs.cache
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\obj\Debug\netcoreapp3.1\API.Domain.Data.AssemblyInfo.cs
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\obj\Debug\netcoreapp3.1\API.Domain.Data.dll
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\obj\Debug\netcoreapp3.1\API.Domain.Data.pdb
+C:\Users\luxfacta\Documents\Projetos\auctionSystem\api\api\API.Domain\obj\Debug\netcoreapp3.1\API.Domain.Data.genruntimeconfig.cache
